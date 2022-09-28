@@ -8,24 +8,24 @@ body {
 
 .title {
     margin: 50px auto;
-    font-size: 100px;
+    font-size: 10vw;
     text-align: center;
     font-weight: bold;
     border: 3px solid #f6d6bd;
     border-radius: 10px;
-    width: 700px;
+    width: 60vw;
     color: #f6d6bd;
 }
 
 
 
 .intro {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
-    padding: 0 100px 0 100px;
+    padding: 0 10vw 0 10vw;
     color: #f6d6bd;
 }
 
@@ -74,11 +74,11 @@ body {
 /* Folders */
 
 .service1 {
-    width: 400px;
+    width: 94vw;
     border: 1px solid #0f2a3f;
     margin: 20px 10px;
     padding: 0 5px;
-    float: left;
+
     min-height: 250px;
     border-radius: 10px;
 } .service1 > p {
@@ -86,7 +86,7 @@ body {
     color: #ffecd6;
     max-width: 250px;
 } .services {
-    width: 1296px;
+    width: 94vw;
     margin: 0 auto;
 } h6 {
     font-size: 16px;
@@ -103,7 +103,27 @@ body {
     text-align: center;
     color:#ffecd6;
     font-size: 32px;
-    margin: 300px 0 75px 0; 
+    margin: 30vw 0 75px 0; 
 }
 
 /* End Folders */
+
+@media only screen and (min-width: 300px) and (max-width: 1599px) {
+    .title {
+        font-size: 40px;
+    }
+    .service1 {
+        width: 325px;
+        
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .title {
+        font-size: 100px;
+    }
+    .service1 {
+        width: 400px;
+        float: left;
+    }
+}
