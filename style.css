@@ -24,7 +24,6 @@ body {
     justify-content: center;
     font-size: 20px;
     text-align: justify;
-    justify-content: center;
     padding: 0 10vw 0 10vw;
     color: #f6d6bd;
 }
@@ -75,7 +74,7 @@ body {
         border: 1px solid #0f2a3f;
         margin: 20px 10px;
         padding: 0 5px;
-        min-height: 250px;
+        min-height: 310px;
         border-radius: 10px;
     } .service1 > p {
         font-size: 14px;
@@ -94,7 +93,7 @@ body {
         border-radius: 10px 10px 0 0;
     } .image {
         max-width: 200px;
-        margin: 15px 0 0 0;
+        margin: 10px;
     } .heading {
         text-align: center;
         color:#f6d6bd;
@@ -104,7 +103,7 @@ body {
 
 /* End Folders */
 
-@media only screen and (min-width: 300px) and (max-width: 1599px) {
+@media only screen and (min-width: 300px) and (max-width: 1349px) {
     .title {
         font-size: 55px;
     }
@@ -115,19 +114,29 @@ body {
         font-size: 12px;
         padding: 4px;
     }
+    .bass {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        height: 180px;
+    }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1350px) {
     .title {
         font-size: 100px;
     }
     .service1 {
         width: 400px;
         float: left;
+        
     }
     .services {
-        display: grid;
-        place-items: center;
-        align-content: center;
+        margin: auto;
+        width: 1296px;
+    }
+    .heading {
+        margin: 150px;
     }
 }
