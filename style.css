@@ -52,69 +52,68 @@ body {
     } .logo {
         color: #000000;
         float: left;
-        padding-left: 25px;
+        padding-left: 15px;
         font-size: 20px;
         font-weight: bold;
     } .logo > a {
         text-decoration: none;
         color: #000000;
+    } .fade {
+        background: #0d2b45;
+        background-image: linear-gradient(#000000, #08141e);
+        height: 30px;
     }
 
 /* End Nav Bar */
 
 
-.fade {
-    background: #0d2b45;
-    background-image: linear-gradient(#000000, #08141e);
-    height: 30px;
-}
-
-
 
 /* Folders */
 
-.service1 {
-    width: 94vw;
-    border: 1px solid #0f2a3f;
-    margin: 20px 10px;
-    padding: 0 5px;
-
-    min-height: 250px;
-    border-radius: 10px;
-} .service1 > p {
-    font-size: 14px;
-    color: #ffecd6;
-    max-width: 250px;
-} .services {
-    width: 94vw;
-    margin: 0 auto;
-} h6 {
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #0f2a3f;
-    color: #ffecd6;
-    padding: 10px 0;
-    margin: 0 -6px;
-    border-radius: 10px 10px 0 0;
-} .image {
-    max-width: 200px;
-    margin: 15px 0 0 0;
-} .heading {
-    text-align: center;
-    color:#ffecd6;
-    font-size: 32px;
-    margin: 30vw 0 75px 0; 
-}
+    .service1 {
+        width: 94vw;
+        border: 1px solid #0f2a3f;
+        margin: 20px 10px;
+        padding: 0 5px;
+        min-height: 250px;
+        border-radius: 10px;
+    } .service1 > p {
+        font-size: 14px;
+        color: #f6d6bd;
+        max-width: 250px;
+    } .services {
+        width: 94vw;
+        margin: 0 auto;
+    } h6 {
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #0f2a3f;
+        color: #f6d6bd;
+        padding: 10px 0;
+        margin: 0 -6px;
+        border-radius: 10px 10px 0 0;
+    } .image {
+        max-width: 200px;
+        margin: 15px 0 0 0;
+    } .heading {
+        text-align: center;
+        color:#f6d6bd;
+        font-size: 32px;
+        margin: 30vw 0 75px 0; 
+    }
 
 /* End Folders */
 
 @media only screen and (min-width: 300px) and (max-width: 1599px) {
     .title {
-        font-size: 40px;
+        font-size: 55px;
     }
     .service1 {
-        width: 325px;
-        
+        width: 325px;   
+    }
+    .nav > li {
+        font-size: 12px;
+        padding: 4px;
     }
 }
 
@@ -125,5 +124,10 @@ body {
     .service1 {
         width: 400px;
         float: left;
+    }
+    .services {
+        display: grid;
+        place-items: center;
+        align-content
     }
 }
