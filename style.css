@@ -128,6 +128,6 @@ body {
     .services {
         display: grid;
         place-items: center;
-        align-content
+        align-content: center;
     }
 }
