@@ -139,4 +139,11 @@ body {
     .heading {
         margin: 150px;
     }
+    .bass {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 32vw;
+        height: 18vw;
+    }
 }
