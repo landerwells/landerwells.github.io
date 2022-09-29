@@ -98,9 +98,19 @@ body {
         text-align: center;
         color:#f6d6bd;
         font-size: 32px;
-        margin: 30vw 0 75px 0; 
+        margin: 30vw 0 300px 0; 
     }
-
+    .hidden {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+        transition: all 1s;
+    }
+    .show {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+    }
 /* End Folders */
 
 @media only screen and (min-width: 300px) and (max-width: 1349px) {
@@ -122,6 +132,9 @@ body {
         height: 180px;
     }
 }
+
+
+
 
 @media only screen and (min-width: 1350px) {
     .title {
