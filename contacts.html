@@ -21,10 +21,28 @@
             <div class="fade"></div> 
     </head>
 
-    <body style="background-color: #08141e;text-align:left;color: #000000;font-family: Andale Mono, monospace">
+    <body>
 
         <div class="title">Contact</div>
 
+        <div class="form">
+            <form action="action_page.php">
+
+                <label for="fname">Your Name</label>
+                <input type="text" id="fname" name="fullname">
+
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message</label>
+                <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
 
 
 

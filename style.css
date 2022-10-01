@@ -1,9 +1,9 @@
 
-
 body {
     margin: 0;
     padding: 0;
     font-family: monospace;
+    background-color: #08141e;
 }
 
 .title {
@@ -38,6 +38,65 @@ body {
     color: #f6d6bd;
 }
 
+.resume {
+    text-align: center;
+    margin: 50px;
+}
+
+.resume > a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: #f6d6bd;
+    border: 1px solid #f6d6bd;
+}
+
+input[type=text], select {
+    color: #f6d6bd;
+    font-size: 14px;
+}
+
+input[type=text], textarea {
+    color: #000000;
+    font-size: 14px;
+    font-family: monospace;
+    width: 50vw;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form {
+    border-radius: 5px;
+    padding: 20px;
+    color: #f6d6bd;
+    background-color: #0f2a3f;
+    width: 50vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 
 /* Nav Bar */
@@ -123,7 +182,7 @@ body {
     }
 /* End Folders */
 
-@media only screen and (min-width: 300px) and (max-width: 1349px) {
+@media only screen and (min-width: 300px) and (max-width: 1249px) {
     .title {
         font-size: 55px;
     }
@@ -144,12 +203,18 @@ body {
     .hidden {
         transition: all .5s;
     }
+    .form {
+        width: 80vw;
+    }
+    input[type=text], select, textarea {
+        width: 80vw;
+    }
 }
 
 
 
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1250px) {
     .title {
         font-size: 100px;
     }
@@ -171,5 +236,11 @@ body {
         margin-right: auto;
         width: 32vw;
         height: 18vw;
+    }
+    .form {
+        width: 600px;
+    }
+    input[type=text], select, textarea {
+        width: 600px;
     }
 }
