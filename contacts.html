@@ -25,19 +25,17 @@
 
         <div class="title"><p>Contact</p></div>
 
-        <div class="note">Note: This contact form is currently not working. I am working on a fix for it right now but my gmail is just landerwells@...</div>
-
         <div class="form">
-            <form action="action_page.php">
+            <form action="https://formsubmit.co/landerwells@gmail.com" method="POST">
 
                 <label for="fname">Your Name</label>
-                <input type="text" id="fname" name="fullname">
+                <input type="text" id="fname" name="fullname" required>
 
                 <label for="email">Your Email</label>
-                <input type="text" id="email" name="email">
+                <input type="text" id="email" name="email" required>
 
                 <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject">
+                <input type="text" id="subject" name="subject" required>
 
                 <label for="message">Message</label>
                 <textarea id="subject" name="subject" style="height:200px"></textarea>
