@@ -260,7 +260,7 @@ input[type=submit]:hover {
         width: 1296px;
     }
     .heading {
-        margin: 150px;
+        margin: 50px;
     }
     .bass {
         display: block;
@@ -283,5 +283,9 @@ input[type=submit]:hover {
         margin-left: auto;
         margin-right: auto;
         width: 30vw;
+    }
+    .intro {
+        padding: 0 30vw 0 30vw;
+
     }
 }
