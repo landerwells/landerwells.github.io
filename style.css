@@ -64,6 +64,15 @@ body {
     margin: 50px;
 }
 
+.textblock {
+    text-align: center;
+    color: #f6d6bd;
+    font-size: 16px;
+
+}
+
+
+
 .resume > a {
     text-decoration: none;
     padding: 10px;
