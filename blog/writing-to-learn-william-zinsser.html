@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-03-23 Sun 14:28 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Writing to Learn - William Zinsser</title>
+<meta name="author" content="Lander Wells" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Writing to Learn - William Zinsser</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgad681e9">1. Preface</a></li>
+<li><a href="#org53a6395">2. Part 1</a></li>
+<li><a href="#org4467164">3. Part 2</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgad681e9" class="outline-2">
+<h2 id="orgad681e9"><span class="section-number-2">1.</span> Preface</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Writing is a form of thinking, not something to be limited only to the study of English or artistic writing. It can and should be used in all areas of study in order to enhance understanding of a subject.
+</p>
+
+<p>
+Al disciplines have literature, good collections of writings to help the student learn and the teacher model their teaching. Even though most the people who wrote these works likely didn&rsquo;t consider themselves writers, they have still produced valuable knowledge with their effort.
+</p>
+
+<p>
+There is no need to be a &ldquo;writer&rdquo; to write well.
+</p>
+
+<p>
+Writing is reciprocal to reading <a href="../main/Reading and Writing.html#ID-7af6aaa7-f570-4f37-b079-9e15234d788f">Reading and Writing</a>, it is vital in order to process thoughts and ideas. There are limits to the thinking that we can do entirely within our brain, which is why writing is so useful. Writing ideas down can result in more valuable creations in the future.
+</p>
+
+<blockquote>
+<p>
+Writing and thinking and learning were the same process. (5)
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-org53a6395" class="outline-2">
+<h2 id="org53a6395"><span class="section-number-2">2.</span> Part 1</h2>
+<div class="outline-text-2" id="text-2">
+<blockquote>
+<p>
+Writing is thinking on paper. Anyone who thinks clearly should be able to write clearly&#x2013;about any subject at all. (16)
+</p>
+</blockquote>
+
+<p>
+Writing should be an activity shared by all disciples not just English. To no fault of English teachers, the responsibility of teaching students how to write has fallen to them. They would really prefer to teach literature, so most of the writing they assign will relate to that. This causes students to associate writing and literature. Instead of being limiting, writing should be seen as an aid, especially to the areas which an individual is lacking.
+</p>
+
+<p>
+Good writing comes around in much the same way as good music. A writer can take inspiration from someone and attempt to imitate them. They will never perfectly imitate, but the effort will allow their personal style to become more similar, and with enough experience, the writer will begin to develop their own personal style.
+</p>
+
+<p>
+Writing is a skill, it takes time and effort. Along with good writing comes re-writing, arguably even more important. Everything you write can always be re-written, and there is never an &ldquo;end&rdquo; to writing. Language is complex for anything to ever be considered done. Any and all writing must be viewed as a constantly evolving process instead of a product. Our perceptions are ever changing, and writing can never be perfect.
+</p>
+
+<p>
+This is exactly like <a href="../main/Verbund.html#ID-021eabe0-2003-4920-bc0c-bb83006808c9">Verbund</a> which views writing as a process instead of a
+</p>
+
+<p>
+This is a cycle that is incredibly useful, and is what happens when using the zettelkasten method.
+</p>
+
+<p>
+learning to write -&gt; writing to learn
+</p>
+
+<blockquote>
+<p>
+One is that writing is linear and sequential.
+</p>
+</blockquote>
+
+<blockquote>
+<p>
+Only by repeated applications of process&#x2013;writing and rewriting and pruning and shaping&#x2013;can we hammer out a clear and simple product. (40)
+</p>
+</blockquote>
+
+<p>
+How does writing relate to learning, and what can we learn from writing that can&rsquo;t be learned another way?
+</p>
+
+<p>
+I didn&rsquo;t fully digest this when reading before, but getting a sense for good writing is very important for your own writing. I know there is lots of good writing out there for mathematics and computer science. I do put way too much time into
+</p>
+
+<p>
+<a href="../main/List of Blogs.html#ID-35dad569-f986-4746-af37-e69d92db55ed">List of Blogs</a>
+</p>
+
+<p>
+Bad writing habits are hard to clear up, the only real way to get after them is to operate on the writing they have done. In other words, feedback. Feedback requires that you have at least made an effort to put something on paper though.
+</p>
+
+<p>
+Separating between how something is written and what it says is not very effective. This is semantics vs syntax at its core, but the two are inseparable. It is impossible to have structure without meaning.
+</p>
+
+<blockquote>
+<p>
+Therefore, for the purposes of this book, I&rsquo;ll generalize outrageously and state that there are two kinds of writing. One is explanatory writing: writing that transmits existing information or ideas. Call it Type A writing. The other is exploratory writing: writing that enables us to discover what we want to say. Call it type B. They are equally valid and useful.
+</p>
+</blockquote>
+
+<p>
+Type A writing is the kind of writing that immediately expresses some knowledge. This is most practical for day to day use. Generally, when you are trying to convey some amount of information this is what you would use. The subject of your writing will have a clear goal, and its the message or information that you need to get across to the reader.
+</p>
+
+<p>
+Type B is exploratory. Some people believe this is the only writing that really matters but there is a time and a place for it.
+</p>
+
+<p>
+To put it even in my own words. Type A writing is set out with an explicit goal or message that the writer needs to convey to the reader. Type B is more arbitrary and is meant for discovery.
+</p>
+
+<ul class="org-ul">
+<li>Fiction and Nonfiction. This book is not about nonfiction writing.
+Fiction writing doesn&rsquo;t really involve learning, or at least that is not the primary goal of it. The writer is bound to less rules and is generally more free to write what they wish. There is infinitely many ways of writing an fiction novel and none of them are &ldquo;wrong&rdquo;, at least in the typical sense. On the other hand the nonfiction writer is &ldquo;endlessly accountable&rdquo;. They need to get the facts write, the quotes right, the general mood of the topic. In so many ways the writer is fallible.</li>
+
+<li><p>
+Information and noise: Noise is anything that prevents information from getting across.
+</p>
+
+<p>
+Abiguity, redundancy, stick only to what is necessary for the message. If information is the goal then the opposite of that is noise, which tries to prevent information from being useful
+</p>
+
+<p>
+Simple style is elegant. Intentional obscurity is pointless as it makes the author&rsquo;s intended message harder to grasp.
+</p></li>
+
+<li>Voice and tone: Compared to Douglas Hofstadter and GEB, the book <i>Surely You&rsquo;re Joking, Mr. Feynnman!</i> dumbed down the tone for the reader which is somewhat disingenuous. It also makes the book less enjoyable</li>
+
+<li><p>
+Brevity: If a piece of writing can be shortened in length while getting across the exact same message that the author wanted to convey the it should be shortened.
+</p>
+
+<p>
+Getting your point across in as few words as possible is efficient and easier for the reader/listener to digest what they have just heard.
+</p></li>
+
+<li>Jargon: This is terminology picked up within a specific field. Avoid using buzzwords and keep jargon to a minimum. Use only when necessary. Its somewhat acceptable when speaking to an audience within that specific field, but if referring to the general knowledge pool it would be wise to translate into generic English.</li>
+
+<li>The Illiteracy of the Elite: The more educated people get, the more complex things they tend to write are, and not in a helpful or meaningful way.</li>
+
+<li>Killer nouns: Avoid using words that don&rsquo;t mean anything</li>
+
+<li><p>
+Lifesaving Verbs: Passive vs active verbs. Passive verbs leave information too vague.
+</p>
+
+<p>
+Active: I saw the boys skaing on the pong.
+Passive: The boys were seen skating on the pond.
+</p></li>
+
+<li>Visible Detail: The writer needs to make their words be &ldquo;seen&rdquo; in order to get their message across. Paint the picture of what you are trying to get across</li>
+
+<li>Enjoyment: By conveying a sense of enjoyment of the material, the reader is also transported into that world. If you are passionate about your writing and don&rsquo;t see it as a &ldquo;task&rdquo; then it will appear in the writing it</li>
+</ul>
+
+<blockquote>
+<p>
+But what Perelman was finally talking about was craft. Writing is a craft, and a writer is someone who goes to work every day with his tools, like the carpenter or the television repairman, no matter how he feels, and if one of the things he wants to produce by 6 P.M. is a sense of enjoyment in his writing, he must generate it by an act of will. Nobody else is going to do it fore him.
+</p>
+</blockquote>
+
+<p>
+I Like this quote a lot, it reminds me of the <a href="../main/Craftsman Mindset.html#ID-a2e962ba-a808-4a09-b223-f1ea278f2268">Craftsman Mindset</a> and just pushing through the rough days. This goes for all things that are a &ldquo;craft&rdquo;. Some days you don&rsquo;t want to participate but showing up is the most important thing.
+</p>
+</div>
+</div>
+<div id="outline-container-org4467164" class="outline-2">
+<h2 id="org4467164"><span class="section-number-2">3.</span> Part 2</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: March 17, 2025 01:39 PM</p>
+<p class="author">Author: Lander Wells</p>
+<p class="date">Created: 2025-03-23 Sun 14:28</p>
+</div>
+</body>
+</html>

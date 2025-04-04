@@ -1,26 +1,51 @@
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: monospace;
-    background-color: #08141e;
+    /* This works but I need the nav-bar to extend */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    /* font-family: 'Times New Roman', sans-serif; */
+    /* background-color: #08141e; */
+    background-color: #ffffff;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.portrait {
+    max-width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Crops the sides */
+    object-position: center; /* Keeps the face centered */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Optional: Shadow */
+    display: block;
+    margin: 20px auto;
 }
 
 .title {
 
     display: grid;
-    place-items: center;
-    font-size: 10vw;
-    font-weight: bold;
+    place-items: left;
+    /* font-family: "Arial Rounded MT Bold", Arial, sans-serif; */
+    /* font-weight: bold; */
+    /* Light weight */
+    /* font-weight: bold; */
 }
 
-.title > p {
+.title>p {
     margin: 50px auto;
-    text-align: center;
-    border: 3px solid #f6d6bd;
-    border-radius: 10px;
+    text-align: left;
+    /* border: 3px solid #f6d6bd; */
+    /* border-radius: 10px; */
     padding: 0px 20px;
-    color: #f6d6bd;
+    /* color: #f6d6bd; */
+    font-size: 5vw;
+    color: #1c202b;
+
 }
 
 .resumePng {
@@ -45,7 +70,7 @@ body {
     font-size: 20px;
     text-align: justify;
     padding: 0 10vw 0 10vw;
-    color: #f6d6bd;
+    color: #1c202b;
 }
 
 .about {
@@ -64,7 +89,7 @@ body {
     margin: 50px;
 }
 
-.resume > a {
+.resume>a {
     text-decoration: none;
     padding: 10px;
     border-radius: 20px;
@@ -72,7 +97,8 @@ body {
     border: 1px solid #f6d6bd;
 }
 
-input[type=text], select {
+input[type=text],
+select {
     color: #f6d6bd;
     font-size: 14px;
 }
@@ -81,7 +107,8 @@ input[type=text], select {
     width: 100%;
 }
 
-input[type=text], textarea {
+input[type=text],
+textarea {
     color: #000000;
     font-size: 14px;
     font-family: monospace;
@@ -90,8 +117,8 @@ input[type=text], textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    margin-top: 6px;
+    margin-bottom: 16px;
     resize: vertical;
 }
 
@@ -123,39 +150,52 @@ input[type=submit]:hover {
 
 }
 
-
 /* Nav Bar */
+.nav {
+    margin: 0;
+    /* background-color: #20394f; */
+    /* background-color: rgba(242, 237, 229, 1.0); */
+    background-color: #2E5C6B;
 
-    .nav {
-        margin: 0;
-        background-color: #20394f;
-        color: #ffffff;
-        list-style: none;
-        text-align: right;
-        padding: 20px 0 20px 0;
-    } .nav > li {
-        display: inline-block;
-        padding-right: 50px;
-        font-size: 16px;
-    } .nav > li > a {
-        text-decoration: none;
-        color: #f6d6bd;
-    } .nav > li > a:hover {
-        color: #c1c1c1;
-    } .logo {
-        color: #000000;
-        float: left;
-        padding-left: 15px;
-        font-size: 20px;
-        font-weight: bold;
-    } .logo > a {
-        text-decoration: none;
-        color: #000000;
-    } .fade {
-        background: #0d2b45;
-        background-image: linear-gradient(#000000, #08141e);
-        height: 30px;
-    }
+    color: #ffffff;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
+}
+
+.nav>li {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 16px;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: #f6d6bd;
+}
+
+.nav>li>a:hover {
+    color: #c1c1c1;
+}
+
+.logo {
+    color: #000000;
+    float: left;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* .fade {
+    background: #0d2b45;
+    background-image: linear-gradient(#000000, #08141e);
+    height: 30px;
+} */
 
 /* End Nav Bar */
 
@@ -163,48 +203,61 @@ input[type=submit]:hover {
 
 /* Folders */
 
-    .service1 {
-        width: 94vw;
-        border: 1px solid #0f2a3f;
-        margin: 20px 10px;
-        padding: 0 5px;
-        min-height: 310px;
-        border-radius: 10px;
-    } .service1 > p {
-        font-size: 14px;
-        color: #f6d6bd;
-        max-width: 250px;
-    } .services {
-        width: 94vw;
-        margin: 0 auto;
-    } h6 {
-        font-size: 16px;
-        font-weight: bold;
-        background-color: #0f2a3f;
-        color: #f6d6bd;
-        padding: 10px 0;
-        margin: 0 -6px;
-        border-radius: 10px 10px 0 0;
-    } .image {
-        max-width: 200px;
-        margin: 10px;
-    } .heading {
-        text-align: center;
-        color:#f6d6bd;
-        font-size: 32px;
-        margin: 30vw 0 100px 0; 
-    }
-    .hidden {
-        opacity: 0;
-        filter: blur(5px);
-        transform: translateX(-100%);
-        transition: all 1s;
-    }
-    .show {
-        opacity: 1;
-        filter: blur(0);
-        transform: translateX(0);
-    }
+.service1 {
+    width: 94vw;
+    border: 1px solid #0f2a3f;
+    margin: 20px 10px;
+    padding: 0 5px;
+    min-height: 310px;
+    border-radius: 10px;
+}
+
+.service1>p {
+    font-size: 14px;
+    color: #f6d6bd;
+    max-width: 250px;
+}
+
+.services {
+    width: 94vw;
+    margin: 0 auto;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0f2a3f;
+    color: #f6d6bd;
+    padding: 10px 0;
+    margin: 0 -6px;
+    border-radius: 10px 10px 0 0;
+}
+
+.image {
+    max-width: 200px;
+    margin: 10px;
+}
+
+.heading {
+    text-align: center;
+    color: #f6d6bd;
+    font-size: 32px;
+    margin: 30vw 0 100px 0;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 /* End Folders */
 
 @media only screen and (min-width: 300px) and (max-width: 1249px) {
@@ -212,13 +265,16 @@ input[type=submit]:hover {
         font-size: 45px;
 
     }
+
     .service1 {
-        width: 325px;   
+        width: 325px;
     }
-    .nav > li {
+
+    .nav>li {
         font-size: 12px;
         padding: 4px;
     }
+
     .bass {
         display: block;
         margin-left: auto;
@@ -226,15 +282,21 @@ input[type=submit]:hover {
         width: 320px;
         height: 180px;
     }
+
     .hidden {
         transition: all .5s;
     }
+
     .form {
         width: 80vw;
     }
-    input[type=text], select, textarea {
+
+    input[type=text],
+    select,
+    textarea {
         width: 80vw;
     }
+
     .resumePng {
         width: 300px;
     }
@@ -247,18 +309,22 @@ input[type=submit]:hover {
     .title {
         font-size: 100px;
     }
+
     .service1 {
         width: 400px;
         float: left;
-        
+
     }
+
     .services {
         margin: auto;
         width: 1296px;
     }
+
     .heading {
         margin: 50px;
     }
+
     .bass {
         display: block;
         margin-left: auto;
@@ -266,21 +332,28 @@ input[type=submit]:hover {
         width: 32vw;
         height: 18vw;
     }
+
     .form {
         width: 600px;
     }
-    input[type=text], select, textarea {
+
+    input[type=text],
+    select,
+    textarea {
         width: 600px;
     }
+
     .note {
         margin: 0 25vw;
     }
+
     .lift {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 30vw;
     }
+
     .intro {
         padding: 0 30vw 0 30vw;
 
