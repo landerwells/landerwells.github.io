@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Lander Wells'
 theme = 'neko'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   email = "landerwells@gmail.com"
   github = "https://github.com/landerwells"
