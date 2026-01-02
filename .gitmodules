@@ -1,0 +1,3 @@
+[submodule "themes/neko"]
+	path = themes/neko
+	url = git@github.com:landerwells/neko.git
