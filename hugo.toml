@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Lander Wells'
 theme = 'kachka'
 
+refLinksErrorLevel = 'warning'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
@@ -11,3 +13,9 @@ theme = 'kachka'
   email = "landerwells@gmail.com"
   github = "https://github.com/landerwells"
   linkedin = "https://www.linkedin.com/in/landerwells"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+    style = ""
