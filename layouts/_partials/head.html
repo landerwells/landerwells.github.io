@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>
+  {{- if .IsHome -}}
+    {{ .Site.Title }}
+  {{- else if eq .Section "blog" -}}
+    {{ .Site.Title }} - Blog
+  {{- else if eq .Section "notes" -}}
+    {{ .Site.Title }} - Notes
+  {{- else -}}
+    {{ .Site.Title }}
+  {{- end -}}
+</title>
+
+<link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="0a89cc5d-0bb0-4d45-bb17-324c3b7f2e71"></script>
+

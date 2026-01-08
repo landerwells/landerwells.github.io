@@ -20,9 +20,10 @@ programs:
       filtering ATC messages by geographic radius in bandwidth-constrained
       environments. The system was written in Java, Python, and PostgreSQL and
       ensured only relevant data reached the C++ frontend. 
-- **En Route Automation Modernization (ERAM)** As an intern on the display team,
-  fixed graphics and rendering issues in a large C++ codebase. Debugged runtime
-  issues using GDB and contributed to automated UI testing driven by XML.
+- **En Route Automation Modernization (ERAM)**: As an intern on the display
+  team, fixed graphics and rendering issues in a large C++ codebase. Debugged
+  runtime issues using GDB and contributed to automated UI testing driven by
+  XML.
 
 Outside of work, I focus on systems programming and language design, with an
 emphasis on modern C++ and Rust. I study technical books and papers and maintain
