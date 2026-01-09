@@ -4,6 +4,14 @@ tags = ["publish"]
 draft = false
 +++
 
+Previous: [C++]({{< relref "C++.md" >}})
+
+Copy semantics are invoked when an object is needed to be copied. They define
+specifically "how" the object is going to be copied into the new independent
+object. The way C++ achieves is with two special member functions: the copy
+constructor, and copy assignment operator.
+
+
 ## The copy constructor {#the-copy-constructor}
 
 The **copy constructor** is a special member function that initializes a new
@@ -70,16 +78,8 @@ struct Point {
 ```
 
 
-## previous [Operator overloading in C++]({{< relref "Operator overloading in C++.md" >}}) {#previous-operator-overloading-in-c-plus-plus--operator-overloading-in-c-plus-plus-dot-md}
+## Other links {#other-links}
 
-The copy assignment operator is an example of overloading the assignment operator as a member function of a class to explicitly define how to perform a copy.
+-   [The Rule of Three, Five, and Zero in C++]({{< relref "The Rule of Three, Five, and Zero in C++.md" >}}): The copy assignment is a part of the original Rule of Three in C++
 
-
-## see [The Rule of Three, Five, and Zero in C++]({{< relref "The Rule of Three, Five, and Zero in C++.md" >}}) {#see-the-rule-of-three-five-and-zero-in-c-plus-plus--the-rule-of-three-five-and-zero-in-c-plus-plus-dot-md}
-
-The copy assignment is a part of the original Rule of Three in C++
-
-
-## see [Special member functions in C++]({{< relref "Special member functions in C++.md" >}}) {#see-special-member-functions-in-c-plus-plus--special-member-functions-in-c-plus-plus-dot-md}
-
-The copy assignment operator is a special member function in C++ and will be provided automatically by the compiler if nothing is provided by the user.
+-   [Special member functions in C++]({{< relref "Special member functions in C++.md" >}}): The copy assignment operator is a special member function in C++ and will be provided automatically by the compiler if nothing is provided by the user.
