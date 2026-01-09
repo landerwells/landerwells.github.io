@@ -16,6 +16,7 @@ refLinksErrorLevel = 'warning'
 
 [markup]
   [markup.highlight]
+    # style = "monokai"
+    lineNos = false # line numbers
+    guessSyntax = true
     noClasses = false
-    lineNos = false
-    style = ""
