@@ -1,5 +1,6 @@
 +++
 title = "Shader"
+author = ["Lander Wells"]
 tags = ["publish"]
 draft = false
 +++
