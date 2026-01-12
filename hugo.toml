@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Lander Wells'
-theme = 'hugo-theme-kachka'
+theme = 'kachka'
 
 refLinksErrorLevel = 'warning'
 
