@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Lander Wells'
-theme = 'kachka'
+theme = 'hugo-theme-kachka'
 
 refLinksErrorLevel = 'warning'
 
@@ -16,7 +16,6 @@ refLinksErrorLevel = 'warning'
 
 [markup]
   [markup.highlight]
-    # style = "monokai"
     lineNos = false # line numbers
     guessSyntax = true
     noClasses = false
