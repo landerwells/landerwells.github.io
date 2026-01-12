@@ -1,6 +1,5 @@
 +++
 title = "Algorithm"
-author = ["Lander Wells"]
 tags = ["publish", "structure"]
 draft = false
 +++

@@ -1,6 +1,5 @@
 +++
 title = "Destructors in C++"
-author = ["Lander Wells"]
 tags = ["publish"]
 draft = false
 +++

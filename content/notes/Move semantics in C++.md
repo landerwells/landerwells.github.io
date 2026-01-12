@@ -1,6 +1,5 @@
 +++
 title = "Move semantics in C++"
-author = ["Lander Wells"]
 tags = ["publish"]
 draft = false
 +++

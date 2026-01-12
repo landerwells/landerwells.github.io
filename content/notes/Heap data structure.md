@@ -1,6 +1,5 @@
 +++
 title = "Heap data structure"
-author = ["Lander Wells"]
 tags = ["publish"]
 draft = false
 +++

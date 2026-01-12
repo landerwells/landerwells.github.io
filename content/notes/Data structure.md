@@ -1,6 +1,5 @@
 +++
 title = "Data structure"
-author = ["Lander Wells"]
 tags = ["publish", "structure"]
 draft = false
 +++

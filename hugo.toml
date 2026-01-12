@@ -20,3 +20,8 @@ refLinksErrorLevel = 'warning'
     lineNos = false # line numbers
     guessSyntax = true
     noClasses = false
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", ":fileModTime", "lastmod"]
+  publishDate = ["publishDate", "date"]
