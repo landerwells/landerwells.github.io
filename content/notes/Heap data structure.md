@@ -6,6 +6,11 @@ draft = false
 
 Previous: [Data structure]({{< relref "Data structure.md" >}})
 
+Heaps are the underlying data structure to priority queues and
+
+-   Heap-order property: Root maintains the target with all elements being either
+    larger or smaller than it depending on if its a min heap or max heap.
+
 This is the most idiomatic way of creating a minimum heap in C++
 
 ```cpp
