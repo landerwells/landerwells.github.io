@@ -4,6 +4,7 @@ title = 'Lander Wells'
 theme = 'kachka'
 
 refLinksErrorLevel = 'warning'
+disableKinds = ['rss']
 
 [caches]
   [caches.images]
@@ -16,11 +17,8 @@ refLinksErrorLevel = 'warning'
 
 [markup]
   [markup.highlight]
-    lineNos = false # line numbers
-    guessSyntax = true
-    noClasses = false
+    codeFences = false
 
 [frontmatter]
-  date = ["date", "publishDate", "lastmod"]
   lastmod = [":git", ":fileModTime", "lastmod"]
-  publishDate = ["publishDate", "date"]
+  
