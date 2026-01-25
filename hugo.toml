@@ -19,6 +19,7 @@ disableKinds = ['rss']
   [markup.highlight]
     codeFences = false
 
+
 [frontmatter]
   lastmod = [":git", ":fileModTime", "lastmod"]
-  
+  publishDate = ['publishDate']
