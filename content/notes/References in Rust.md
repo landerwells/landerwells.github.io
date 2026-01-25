@@ -1,5 +1,6 @@
 +++
 title = "References in Rust"
+publishDate = 2026-01-24T00:00:00-06:00
 tags = ["publish"]
 draft = false
 +++

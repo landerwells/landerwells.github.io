@@ -1,13 +1,11 @@
 * Lander's personal website
 
-What are you even doing here?
+What are you even doing here? Anyway, this is what I want to work on.
 
-** Features I am working on [2/7]
-- [ ] Improve code blocks
+** Future features [0/5]:
+- [ ] Improved code blocks
 - [ ] Implement blog dates
-- [ ] Investigate potential search feature.
-- [X] Investigate CSS analytics
 - [ ] Move index pages into notes, and convert them to org, that way they can be
   easily updated
-- [X] Implement RSS feed for blog
 - [ ] Improve formatting in single pages
+- [ ] Convert to personal wiki

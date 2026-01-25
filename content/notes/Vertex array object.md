@@ -1,5 +1,6 @@
 +++
 title = "Vertex array object"
+publishDate = 2026-01-15T00:00:00-06:00
 tags = ["publish"]
 draft = false
 +++
