@@ -6,7 +6,7 @@ draft = false
 +++
 
 Hello and welcome to my first ever blog post! I'll keep this one brief. On my
-blog I plan on talking about technical subject such as: [Emacs]({{< relref "Emacs.md" >}}), [Nix]({{< relref "Nix.md" >}}), [C++]({{< relref "C++.md" >}}), [Rust]({{< relref "Rust.md" >}}),
+blog I plan on talking about technical subject such as: [Emacs]({{< relref "Emacs.md" >}}), [Nix]({{< relref "Nix.sync-conflict-20260126-045305-33XBBVQ.md" >}}), [C++]({{< relref "C++.md" >}}), [Rust]({{< relref "Rust.md" >}}),
 and [Graphics programming]({{< relref "Graphics programming.md" >}}).
 
 I rebuilt this website using Hugo and Emacs Org-mode after reading about [Hugo

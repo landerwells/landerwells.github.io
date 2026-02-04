@@ -2,9 +2,9 @@
 
 What are you even doing here? Anyway, this is what I want to work on.
 
-** Future features [0/5]:
+** Future features [1/5]:
 - [ ] Improved code blocks
-- [ ] Implement blog dates
+- [X] Implement blog dates
 - [ ] Move index pages into notes, and convert them to org, that way they can be
   easily updated
 - [ ] Improve formatting in single pages
