@@ -10,3 +10,6 @@ Previous: [Bevy]({{< relref "Bevy.md" >}})
 Entity component sysetm (ECS) is a design pattern that involves breaking a
 program up into entities, components, and systems. Entities are unique things
 which are assigned components, and then processed using systems.
+
+An entity is an ID. A component is a stuct of data. A system is the logic that
+operates on the components.

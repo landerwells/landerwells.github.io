@@ -1,11 +1,10 @@
-* Lander's personal website
-
-What are you even doing here? Anyway, this is what I want to work on.
-
-** Future features [1/5]:
+***  todo list [0/6]:
+- [ ] Work out table of contents option
 - [ ] Improved code blocks
-- [X] Implement blog dates
 - [ ] Move index pages into notes, and convert them to org, that way they can be
   easily updated
-- [ ] Improve formatting in single pages
 - [ ] Convert to personal wiki
+- [ ] Uniform stylesheet for notes and blogs that can accept different options?
+  - [ ] better tables
+- [ ] Toast feature?
+

@@ -5,7 +5,7 @@ tags = ["publish"]
 draft = false
 +++
 
-Previous: [Algorithm]({{< relref "Algorithm.md" >}})
+Previous: [Sorting]({{< relref "Sorting.md" >}})
 
 Merge sort is a divide-and-conquer algorithm for sorting an array in O(n(log(n)))
 time complexity in both best and worst case. The space complexity is O(n) due to

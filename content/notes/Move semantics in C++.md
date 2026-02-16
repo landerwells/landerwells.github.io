@@ -5,7 +5,7 @@ tags = ["publish"]
 draft = false
 +++
 
-[C++]({{< relref "C++.md" >}})
+Previous: [Special member functions in C++]({{< relref "Special member functions in C++.md" >}})
 
 Move semantics were introduced in C++11 as an optimization for efficiently
 transferring ownership of resources between objects. Before their introduction,

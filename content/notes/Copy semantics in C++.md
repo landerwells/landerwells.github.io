@@ -5,7 +5,7 @@ tags = ["publish"]
 draft = false
 +++
 
-Previous: [C++]({{< relref "C++.md" >}})
+Previous: [Special member functions in C++]({{< relref "Special member functions in C++.md" >}})
 
 Copy semantics are invoked when an object is needed to be copied. They define
 specifically "how" the object is going to be copied into the new independent
@@ -77,10 +77,3 @@ struct Point {
   }
 };
 ```
-
-
-## Other links {#other-links}
-
--   [The Rule of Three, Five, and Zero in C++]({{< relref "The Rule of Three, Five, and Zero in C++.md" >}}): The copy assignment is a part of the original Rule of Three in C++
-
--   [Special member functions in C++]({{< relref "Special member functions in C++.md" >}}): The copy assignment operator is a special member function in C++ and will be provided automatically by the compiler if nothing is provided by the user.

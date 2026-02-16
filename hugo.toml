@@ -16,8 +16,14 @@ disableKinds = ['rss']
   linkedin = "https://www.linkedin.com/in/landerwells"
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     codeFences = false
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
 
 
 [frontmatter]
