@@ -1,0 +1,378 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500'); 
+
+header {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2em 0 1em 0;
+  margin-top: 5.0%;
+}
+
+header nav {
+  font-size: 1.25em;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;  /* Changed to 300 so only email is bold */
+  text-transform: uppercase;
+}
+
+header nav a {
+  text-decoration: none;
+  color: rgba(48,63,159, 1.00);
+  font-weight: 300;  /* Explicitly set all links to 300 */
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav span {
+  color: #999999;
+}
+
+/* Bold email specifically */
+header nav a.email-link {
+  font-weight: 400;
+}
+
+/* Change from div.content to match Hugo's structure */
+main, .content {
+  margin: 0 auto;
+  max-width: 720px;
+  margin-bottom: 5%;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(51, 51, 51, 1.00);
+    line-height: 1.4em;
+    counter-reset: section;
+    font-weight: light;
+}
+
+/* Keep all the link, text styling as-is */
+a, a:visited {
+    text-decoration: none;
+    color: rgba(48,63,159, 1.00);
+}
+
+strong, .bold {
+    font-weight: 400;
+}
+
+em, i {
+    color: #999999;
+    font-style: normal;
+}
+
+/* Keep blockquotes, lists, headings as-is - they work the same */
+blockquote {
+    color: #999999;
+    padding-top: 0;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 3px solid #cccccc;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: .5em;
+}
+
+ul li::before {
+    display: inline-block;
+    content: "— ";
+    color: #999999;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol {
+    padding-left: 0;
+    margin-left: 2em;
+    list-style: none;
+    counter-reset: li;
+}
+
+ol li {
+    counter-increment: li;
+    margin-bottom: .25em;
+}
+
+ol li::before {
+    content: counter(li) ". ";
+    color: #999999;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+}
+
+/* --- Table of contents --- */
+.ox-hugo-toc {
+    padding-top: 0em;
+    margin-top: 0em;
+    text-transform: uppercase;
+}
+.ox-hugo-toc ul {
+    padding: 0;
+    font-weight: 400;
+    list-style: none;
+    counter-reset: list 0;
+}
+.ox-hugo-toc ul ul {
+    padding-left:0em;
+    font-weight: 300;
+    font-size: 90%;
+    line-height: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+.ox-hugo-toc h2:before {
+    content: "";
+    counter-reset: section;
+}
+.ox-hugo-toc ul li {
+    vertical-align: top;
+    display: inline-block;
+    width: 32%;
+}
+.ox-hugo-toc ul li:before {
+    display: inline-block;
+    counter-increment: list;
+    content: counters(list, ".") ".";
+    width: 2.0em;
+    margin-left: -2.0em;
+    text-align: right;
+    text-transform: uppercase;
+    color:#2255bb;
+}
+.ox-hugo-toc ul li ul,
+.ox-hugo-toc ul li ul li {
+    display: static;
+    width: 100%;
+    padding-left: 0;
+    line-height: 1.35em;
+}
+.ox-hugo-toc ul li ul li:before {
+    content: ""
+}
+.ox-hugo-toc h2 {
+    font-size: 1em;
+    font-weight: 400;
+    padding-top: 5em;
+}
+.ox-hugo-toc h2:before {
+    content: "⌘";
+}
+
+/* Headings - keep the same styling */
+h1.title {
+    font-size: 1.5em;
+    margin-top: 4em;
+    margin-bottom: 0em;
+    font-weight: 400;
+    text-align: left;
+}
+
+span.subtitle {
+    display: inline-block;
+    margin-top: .25em;
+    font-size: 74.5%;
+    font-weight: 300;
+    color: #999999;
+}
+
+
+h3 { padding-top: .5em; }
+h1, h2, h3, h4 {
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    /* font-variant: all-small-caps; */
+    text-transform: uppercase;
+}
+h2 { padding-top: 5em; }
+h3 { padding-top: 3em; }
+
+body {
+  counter-reset: section;
+}
+h2 {
+  counter-reset: subsection;
+}
+h2::before {
+    color: #cccccc;
+    float: left;
+    text-align: right;
+    font-weight: 300;
+    width: 7.5em;
+    margin-left: -8.0em;
+    counter-increment: section;
+    content: "Chapter " counter(section) " ";
+}
+
+
+h3::before {
+    color: #cccccc;
+    float: left;
+    text-align: right;
+    font-weight: 300;
+    width: 2.5em;
+    margin-left: -3.0em;
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+}
+
+
+/* --- Code blocks --- */
+code, pre {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    line-height: 1.35em;
+}
+
+/* Inline code */
+code {
+    background-color: #f9f9f9;
+    font-weight: 400; /* keep inline code slightly bolder */
+    padding: 0.1em 0.25em;
+    border-radius: 3px;
+}
+
+/* Pre blocks */
+pre {
+    position: relative;
+    background-color: #fbfbfb;
+    color: #00008b;
+    overflow: auto;
+    margin: 0;
+    padding: 0.25em 0.5em;
+    border-left: 2px dotted #00008b;
+}
+
+/* Language labels */
+pre::before {
+    color: #cccccc;
+    float: left;
+    text-align: right;
+    font-weight: 300;
+    width: 3em;
+    margin-left: -4.25em;
+    font-variant: small-caps;
+    content: "";
+}
+pre.src-lisp::before  { content: "lisp"; }
+pre.src-org::before   { content: "org"; }
+pre.src-cpp::before   { content: "c++"; }
+pre.src-c::before     { content: "c"; }
+pre.src-rust::before  { content: "rust"; }
+
+/* Optional: specific class for pre.src to allow folding or extra styling */
+pre.src {
+    overflow: visible;
+}
+
+/* --- Syntax highlighting tokens --- */
+.token.comment, 
+.token.prolog, 
+.token.doctype, 
+.token.cdata {
+    color: #999999;
+    font-style: italic;
+}
+
+.token.keyword           { color: #303F9F; font-weight: bold; }
+.token.string            { color: #A31515; }
+.token.number            { color: #098658; }
+.token.function          { color: #795E26; }
+.token.operator          { color: #000000; }
+.token.variable          { color: #1C00CF; }
+.token.type              { color: #2B91AF; }
+.token.constant          { color: #36ACAA; }
+.token.class-name        { color: #2B91AF; font-weight: bold; }
+.token.namespace         { color: #795E26; font-style: italic; }
+.token.attr-name         { color: #00008B; }
+.token.attr-value        { color: #A31515; }
+.token.tag               { color: #303F9F; font-weight: bold; }
+.token.regex             { color: #E90; }
+.token.boolean           { color: #098658; font-weight: bold; }
+.token.deleted           { background-color: #ffdddd; }
+.token.inserted          { background-color: #ddffdd; }
+
+/* --- Code folding --- */
+details {
+    color: rgba(48,63,159, 1.00);
+    background: #fbfbfb;
+    border: 1px solid rgba(48,63,159, 1.00);
+    border-radius: 3px;
+    padding:  0.25em;
+    margin-bottom: 1.0em;
+}
+details pre {
+    border: 0;
+}
+details pre.src-lisp::before { content: ""; }
+summary {
+    outline: 0;
+    color: rgba(48,63,159, 1.00);
+}
+summary::after {
+    font-size: 0.85em;
+    color: rgba(48,63,159, 0.25);
+    display: inline-block;
+    float: right;
+    content: "Click to fold/unfold";
+    padding-right:  0.5em;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    font-weight: 400;
+    padding: 0;
+    margin-bottom: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+td {
+  line-height: 1.1em;
+  padding: 0;
+  padding-bottom: 0;
+}
+
+dd {
+    margin-top: 0.25em;
+    margin-bottom: 0.50em;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    color: #999999;
+    line-height: 1.25em;
+    margin: 0.5em 0;
+}
+
+footer a {
+    color: #999999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

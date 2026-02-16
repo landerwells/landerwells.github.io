@@ -1,0 +1,106 @@
+:root {
+  /* Backgrounds */
+  --bg-color: #272822;
+  --pre-bg-color: #272822;
+  --highlight-bg-color: #3c3d38;
+  --error-bg-color: #1e0010;
+
+  /* Text colors */
+  --text-color: #f8f8f2;
+  --comment-color: #75715e;
+  --keyword-color: #66d9ef;
+  --keyword-namespace-color: #f92672;
+  --name-color: #a6e22e;
+  --name-tag-color: #f92672;
+  --literal-color: #ae81ff;
+  --string-color: #e6db74;
+  --string-escape-color: #ae81ff;
+  --number-color: #ae81ff;
+  --operator-color: #f92672;
+  --error-color: #960050;
+
+  /* Generic */
+  --deleted-color: #f92672;
+  --inserted-color: #a6e22e;
+  --subheading-color: #75715e;
+}
+
+/* --- Pre and background wrappers --- */
+.bg,
+.chroma {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.chroma .err {
+  color: var(--error-color);
+  background-color: var(--error-bg-color);
+}
+
+.chroma .hl {
+  background-color: var(--highlight-bg-color);
+}
+
+/* Line numbers / tables */
+.chroma .lnlinks { outline:none; text-decoration:none; color:inherit; }
+.chroma .lntd { vertical-align:top; padding:0; margin:0; border:0; }
+.chroma .lntable { border-spacing:0; padding:0; margin:0; border:0; }
+.chroma .lnt, .chroma .ln { 
+  white-space: pre; 
+  -webkit-user-select:none; 
+  user-select:none; 
+  margin-right:0.4em; 
+  padding:0 0.4em 0 0.4em; 
+  color:#7f7f7f; 
+}
+.chroma .line { display:flex; }
+
+/* --- Keywords --- */
+.chroma .k, .chroma .kc, .chroma .kd, .chroma .kp, 
+.chroma .kr, .chroma .kt {
+  color: var(--keyword-color);
+}
+
+.chroma .kn, .chroma .nt { 
+  color: var(--keyword-namespace-color);
+}
+
+/* --- Names --- */
+.chroma .na, .chroma .nc, .chroma .no, .chroma .nd,
+.chroma .ne, .chroma .nx, .chroma .nf, .chroma .fm {
+  color: var(--name-color);
+}
+
+/* --- Literals --- */
+.chroma .l, .chroma .mb, .chroma .mf, .chroma .mh, 
+.chroma .mi, .chroma .il, .chroma .mo {
+  color: var(--literal-color);
+}
+
+.chroma .s, .chroma .sa, .chroma .sb, .chroma .sc, 
+.chroma .dl, .chroma .sd, .chroma .s2, .chroma .sh,
+.chroma .si, .chroma .sx, .chroma .sr, .chroma .s1, .chroma .ss {
+  color: var(--string-color);
+}
+
+.chroma .se {
+  color: var(--string-escape-color);
+}
+
+/* --- Operators --- */
+.chroma .o, .chroma .ow {
+  color: var(--operator-color);
+}
+
+/* --- Comments --- */
+.chroma .c, .chroma .ch, .chroma .cm, .chroma .c1,
+.chroma .cs, .chroma .cp, .chroma .cpf, .chroma .gu {
+  color: var(--comment-color);
+}
+
+/* --- Generic --- */
+.chroma .gd { color: var(--deleted-color); }
+.chroma .gi { color: var(--inserted-color); }
+.chroma .ge { font-style: italic; }
+.chroma .gs { font-weight: bold; }
+
