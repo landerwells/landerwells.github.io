@@ -1,4 +1,0 @@
-* Kacka Theme
-This is the theme for my [[https://www.landerwells.com/][personal site]] based off Nicolas P. Rougier's [[https://www.labri.fr/perso/nrougier/GTD/index.html][blog post]]
-and [[https://www.labri.fr/perso/nrougier/][personal site]].
-
