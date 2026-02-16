@@ -41,7 +41,7 @@ d3.json(graph_name).then(function(data) {
     // Cluster centers around an circle
     centersx = angleArr.map(x => Math.cos(Math.PI + x));
     centersy = angleArr.map(x => Math.sin(Math.PI + x));
-    // Color palette
+    // Color palette for top 7 communities
     nodeColors = [
         '#C98914',
         '#C55F1A',
@@ -51,8 +51,12 @@ d3.json(graph_name).then(function(data) {
         '#5E998A',
         "#363ea9",
     ];
-    // Color function just maps cluster to color palette
+    // Color function maps cluster to color palette, with black for smaller communities
     nodeColor = d => {
+        // Communities beyond the 7th get black color
+        if (d.communityLabel >= nodeColors.length) {
+            return '#000000';
+        }
         return nodeColors[d.communityLabel];
     };
     // Make the nodes draggable

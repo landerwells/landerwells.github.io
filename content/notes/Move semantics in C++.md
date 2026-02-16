@@ -72,6 +72,3 @@ public:
 ```
 
 Like the move constructor, it should typically be marked \`noexcept\`.
-
-
-## see [References in C++]({{< relref "References in C++.md" >}}) {#see-references-in-c-plus-plus--references-in-c-plus-plus-dot-md}

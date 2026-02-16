@@ -113,6 +113,10 @@ ol li::before {
 }
 
 /* --- Table of contents --- */
+/* Improvements to be made */
+/* Off to one side */
+/* No longer triple stack */
+/* Third header numbers also need to be generated, but not included in toc */
 .ox-hugo-toc {
     padding-top: 0em;
     margin-top: 0em;

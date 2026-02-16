@@ -5,7 +5,7 @@ tags = ["publish"]
 draft = false
 +++
 
-Previous: [C++]({{< relref "C++.md" >}})
+Previous: [References in C++]({{< relref "References in C++.md" >}})
 
 Forwarding references (also known as "universal references") can bind to both
 lvalues and rvalues. The syntax is generally the same as rvalue references
