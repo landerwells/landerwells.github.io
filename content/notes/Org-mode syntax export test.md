@@ -31,22 +31,10 @@ draft = false
     - [Block Quotes](#block-quotes)
     - [Verse Blocks](#verse-blocks)
 - [Horizontal Rules](#horizontal-rules)
-- [<span class="org-todo todo TODO">TODO</span> Items and States](#items-and-states)
-    - [<span class="org-todo todo TODO">TODO</span> A task that needs to be done](#a-task-that-needs-to-be-done)
-    - [<span class="org-todo done DONE">DONE</span> A completed task](#a-completed-task)
-    - [<span class="org-todo todo TODO">TODO</span> High priority task](#high-priority-task)
-    - [<span class="org-todo todo TODO">TODO</span> Medium priority task](#medium-priority-task)
-    - [<span class="org-todo todo TODO">TODO</span> Low priority task](#low-priority-task)
 - [Tags](#tags):tag:
     - [Heading with Single Tag](#heading-with-single-tag):work:
     - [Heading with Multiple Tags](#heading-with-multiple-tags):work:important:
     - [Heading with Inherited Tags](#heading-with-inherited-tags):project:development:
-- [Timestamps and Scheduling](#timestamps-and-scheduling)
-    - [Active Timestamp](#active-timestamp)
-    - [Inactive Timestamp](#inactive-timestamp)
-    - [Timestamp Range](#timestamp-range)
-    - [<span class="org-todo todo TODO">TODO</span> Task with Deadline](#task-with-deadline)
-    - [<span class="org-todo todo TODO">TODO</span> Task with Schedule](#task-with-schedule)
 - [Properties and Drawers](#properties-and-drawers)
     - [Heading with Properties](#heading-with-properties)
     - [Heading with Logbook](#heading-with-logbook)
@@ -299,24 +287,6 @@ Separate sections with horizontal rules using five or more dashes:
 Content after the rule.
 
 
-## <span class="org-todo todo TODO">TODO</span> Items and States {#items-and-states}
-
-
-### <span class="org-todo todo TODO">TODO</span> A task that needs to be done {#a-task-that-needs-to-be-done}
-
-
-### <span class="org-todo done DONE">DONE</span> A completed task {#a-completed-task}
-
-
-### <span class="org-todo todo TODO">TODO</span> High priority task {#high-priority-task}
-
-
-### <span class="org-todo todo TODO">TODO</span> Medium priority task {#medium-priority-task}
-
-
-### <span class="org-todo todo TODO">TODO</span> Low priority task {#low-priority-task}
-
-
 ## Tags <span class="tag"><span class="tag">tag</span></span> {#tags}
 
 
@@ -327,30 +297,6 @@ Content after the rule.
 
 
 ### Heading with Inherited Tags <span class="tag"><span class="project">project</span><span class="development">development</span></span> {#heading-with-inherited-tags}
-
-
-## Timestamps and Scheduling {#timestamps-and-scheduling}
-
-
-### Active Timestamp {#active-timestamp}
-
-<span class="timestamp-wrapper"><span class="timestamp">&lt;2026-02-15 Sun&gt;</span></span>
-
-
-### Inactive Timestamp {#inactive-timestamp}
-
-<span class="timestamp-wrapper"><span class="timestamp">[2026-02-15 Sun]</span></span>
-
-
-### Timestamp Range {#timestamp-range}
-
-<span class="timestamp-wrapper"><span class="timestamp">&lt;2026-02-15 Sun&gt;&#x2013;&lt;2026-02-20 Fri&gt;</span></span>
-
-
-### <span class="org-todo todo TODO">TODO</span> Task with Deadline {#task-with-deadline}
-
-
-### <span class="org-todo todo TODO">TODO</span> Task with Schedule {#task-with-schedule}
 
 
 ## Properties and Drawers {#properties-and-drawers}

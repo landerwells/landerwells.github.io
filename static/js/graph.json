@@ -8,25 +8,25 @@
       "tooltip": "Zettelkasten",
       "lnk": "zettelkasten",
       "id": "\"125ba92b-97a4-4a87-b1b8-8fa894ddbba1\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 1,
-      "communityLabel": 12
+      "communityLabel": 11
     },
     {
       "label": "Why titles matter in a Zettelkasten",
       "tooltip": "Why titles matter in a Zettelkasten",
       "lnk": "why-titles-matter-in-a-zettelkasten",
       "id": "\"c8ff162b-fb13-4f62-a8ff-ced33e0b05a3\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 1,
-      "communityLabel": 12
+      "communityLabel": 11
     },
     {
       "label": "Virtual memory",
       "tooltip": "Virtual memory",
       "lnk": "virtual-memory",
       "id": "\"53727bb9-fad2-4b22-8a07-4b6860928d16\"",
-      "centrality": 0.3972675335234207,
+      "centrality": 0.36792540169730364,
       "degree": 5,
       "communityLabel": 2
     },
@@ -35,7 +35,7 @@
       "tooltip": "Virtual address space",
       "lnk": "virtual-address-space",
       "id": "\"b34e0f7d-6277-4875-ba5a-238d80ced896\"",
-      "centrality": 0.08513495581701866,
+      "centrality": 0.07779683338594383,
       "degree": 2,
       "communityLabel": 2
     },
@@ -44,7 +44,7 @@
       "tooltip": "Vertex buffer object",
       "lnk": "vertex-buffer-object",
       "id": "\"9e996038-090f-4d85-89d3-56a1228c69ae\"",
-      "centrality": 0.13246191903282475,
+      "centrality": 0.12503551631055965,
       "degree": 2,
       "communityLabel": 8
     },
@@ -53,61 +53,88 @@
       "tooltip": "Vertex array object",
       "lnk": "vertex-array-object",
       "id": "\"34a21ba8-0138-4e3c-8049-24746be233b2\"",
-      "centrality": 0.13246191903282475,
+      "centrality": 0.12503551631055965,
       "degree": 2,
       "communityLabel": 8
+    },
+    {
+      "label": "Variable assignment and initialization in C++",
+      "tooltip": "Variable assignment and initialization in C++",
+      "lnk": "variable-assignment-and-initialization-in-c++",
+      "id": "\"4c7d3d10-9f66-4c79-9e24-8674b2c62a5a\"",
+      "centrality": 0.1426516847385104,
+      "degree": 2,
+      "communityLabel": 12
     },
     {
       "label": "Transform",
       "tooltip": "Transform",
       "lnk": "transform",
       "id": "\"c06deb9f-8ead-4080-b915-75dba776004f\"",
-      "centrality": 0.17722773107746767,
+      "centrality": 0.16702627428414932,
       "degree": 2,
-      "communityLabel": 5
+      "communityLabel": 7
     },
     {
       "label": "The rule of three, five, and zero in C++",
       "tooltip": "The rule of three, five, and zero in C++",
       "lnk": "the-rule-of-three-five-and-zero-in-c++",
       "id": "\"cdb6eea9-4902-4756-a2f4-49304b0d0c0a\"",
-      "centrality": 0.19604994677567458,
+      "centrality": 0.1767822822607979,
       "degree": 3,
-      "communityLabel": 6
+      "communityLabel": 3
+    },
+    {
+      "label": "Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Sussman, Julie Sussman",
+      "tooltip": "Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Sussman, Julie Sussman",
+      "lnk": "structure-and-interpretation-of-computer-programs---harold-abelson-gerald-sussman-julie-sussman",
+      "id": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
+      "centrality": 0.25852848478978563,
+      "degree": 4,
+      "communityLabel": 4
     },
     {
       "label": "Special member functions in C++",
       "tooltip": "Special member functions in C++",
       "lnk": "special-member-functions-in-c++",
       "id": "\"96a0eb88-4cfb-4c0e-b0cb-20fc18111daa\"",
-      "centrality": 0.4128726892199601,
+      "centrality": 0.36866258510347605,
       "degree": 5,
-      "communityLabel": 6
+      "communityLabel": 3
     },
     {
       "label": "Sorting",
       "tooltip": "Sorting",
       "lnk": "sorting",
       "id": "\"8c049847-74b4-400b-852e-53246532ca8a\"",
-      "centrality": 0.17133438550575233,
+      "centrality": 0.1615373593786508,
       "degree": 2,
-      "communityLabel": 0
+      "communityLabel": 1
+    },
+    {
+      "label": "Signed distance function",
+      "tooltip": "Signed distance function",
+      "lnk": "signed-distance-function",
+      "id": "\"9f29c02f-d0b0-4402-9377-2abbdffc9502\"",
+      "centrality": 0.03405252325216372,
+      "degree": 1,
+      "communityLabel": 5
     },
     {
       "label": "Shader",
       "tooltip": "Shader",
       "lnk": "shader",
       "id": "\"268bd7cf-b9c4-424c-b770-ed80abcfdad1\"",
-      "centrality": 0.01604658397717625,
+      "centrality": 0.015862711852795888,
       "degree": 1,
-      "communityLabel": 3
+      "communityLabel": 5
     },
     {
       "label": "Rust",
       "tooltip": "Rust",
       "lnk": "rust",
       "id": "\"c63f0bfb-38bf-44df-8bd6-4f09b06f32ff\"",
-      "centrality": 0.3120371863295535,
+      "centrality": 0.29339404019715787,
       "degree": 2,
       "communityLabel": 9
     },
@@ -116,52 +143,88 @@
       "tooltip": "References in Rust",
       "lnk": "references-in-rust",
       "id": "\"793edec7-bbcb-4516-b947-03f71d8f17c1\"",
-      "centrality": 0.09559891483057684,
+      "centrality": 0.09055776432373758,
       "degree": 1,
       "communityLabel": 9
+    },
+    {
+      "label": "References in C++",
+      "tooltip": "References in C++",
+      "lnk": "references-in-c++",
+      "id": "\"dc5c5065-e92b-4ea0-af6e-db8b99a8adea\"",
+      "centrality": 0.2152297215263816,
+      "degree": 3,
+      "communityLabel": 3
+    },
+    {
+      "label": "Recursively Enumerable",
+      "tooltip": "Recursively Enumerable",
+      "lnk": "recursively-enumerable",
+      "id": "\"01590106-9895-4b5e-98f9-4b5bb44a9059\"",
+      "centrality": 0.016175349475161107,
+      "degree": 1,
+      "communityLabel": 1
+    },
+    {
+      "label": "Recursive lambda expressions in C++",
+      "tooltip": "Recursive lambda expressions in C++",
+      "lnk": "recursive-lambda-expressions-in-c++",
+      "id": "\"0d2cc019-6adf-4e08-aabc-bb19447925f5\"",
+      "centrality": 0.02622647376475477,
+      "degree": 1,
+      "communityLabel": 0
     },
     {
       "label": "Ray marching",
       "tooltip": "Ray marching",
       "lnk": "ray-marching",
       "id": "\"769889d2-5185-4439-9f32-89b3492a154a\"",
-      "centrality": 0.1709127006866431,
+      "centrality": 0.16104647553806326,
       "degree": 2,
-      "communityLabel": 3
+      "communityLabel": 5
     },
     {
       "label": "Quaternion",
       "tooltip": "Quaternion",
       "lnk": "quaternion",
       "id": "\"687189ba-e2ef-4967-89cc-08fcef43355e\"",
-      "centrality": 0.30190100783476737,
+      "centrality": 0.2838658464822185,
       "degree": 3,
-      "communityLabel": 5
+      "communityLabel": 7
     },
     {
       "label": "Process",
       "tooltip": "Process",
       "lnk": "process",
       "id": "\"5b84e682-62cb-4c47-a5c2-7baeb8ffff83\"",
-      "centrality": 0.28732081663031794,
+      "centrality": 0.2609770710040399,
       "degree": 4,
       "communityLabel": 2
+    },
+    {
+      "label": "Phong lighting",
+      "tooltip": "Phong lighting",
+      "lnk": "phong-lighting",
+      "id": "\"92cdb7d1-115c-46ce-b400-c57fe5c77601\"",
+      "centrality": 0.015862711852795888,
+      "degree": 1,
+      "communityLabel": 5
     },
     {
       "label": "Perfect forwarding in C++",
       "tooltip": "Perfect forwarding in C++",
       "lnk": "perfect-forwarding-in-c++",
       "id": "\"e6869bc0-6ce2-4bf2-9e84-eb1a1fdbc2e3\"",
-      "centrality": 0.0310318546577671,
+      "centrality": 0.02829594901030515,
       "degree": 1,
-      "communityLabel": 10
+      "communityLabel": 3
     },
     {
       "label": "Operating system",
       "tooltip": "Operating system",
       "lnk": "operating-system",
       "id": "\"30f95398-5693-45a4-bdfa-7741cb45857c\"",
-      "centrality": 0.32191637030904013,
+      "centrality": 0.29861388109662546,
       "degree": 4,
       "communityLabel": 2
     },
@@ -170,7 +233,7 @@
       "tooltip": "OpenGL",
       "lnk": "opengl",
       "id": "\"3d784f4b-c849-4906-8941-ed61978934c2\"",
-      "centrality": 0.2533978786076889,
+      "centrality": 0.23838422471831483,
       "degree": 3,
       "communityLabel": 8
     },
@@ -179,115 +242,151 @@
       "tooltip": "Multithreading",
       "lnk": "multithreading",
       "id": "\"06e0a0f0-5853-4483-a67e-cfa56df3b6be\"",
-      "centrality": 0.11681057919147379,
+      "centrality": 0.1093094538376093,
       "degree": 2,
       "communityLabel": 2
+    },
+    {
+      "label": "Move semantics in C++",
+      "tooltip": "Move semantics in C++",
+      "lnk": "move-semantics-in-c++",
+      "id": "\"d10135e0-142a-4098-9211-e9810149491e\"",
+      "centrality": 0.18196275949391927,
+      "degree": 3,
+      "communityLabel": 3
     },
     {
       "label": "Most vexing parse in C++",
       "tooltip": "Most vexing parse in C++",
       "lnk": "most-vexing-parse-in-c++",
       "id": "\"954c7ba2-0ab1-44f0-a64d-17ec2b1e988c\"",
-      "centrality": 0.008716475567793546,
+      "centrality": 0.0041119574909646945,
       "degree": 1,
-      "communityLabel": 1
+      "communityLabel": 0
+    },
+    {
+      "label": "Models of Computation",
+      "tooltip": "Models of Computation",
+      "lnk": "models-of-computation",
+      "id": "\"50ccd646-aae1-49b6-8a56-91723f11d463\"",
+      "centrality": 0.08826784803139363,
+      "degree": 2,
+      "communityLabel": 4
     },
     {
       "label": "Merge sort",
       "tooltip": "Merge sort",
       "lnk": "merge-sort",
       "id": "\"b39ee91f-cc61-4bf0-be11-30b8442187d9\"",
-      "centrality": 0.03559653963391663,
+      "centrality": 0.03425364781271556,
       "degree": 1,
-      "communityLabel": 0
+      "communityLabel": 1
     },
     {
       "label": "Memory segmentation",
       "tooltip": "Memory segmentation",
       "lnk": "memory-segmentation",
       "id": "\"e5f5b1e7-aa09-46d0-84f7-9dd0cdd2cb75\"",
-      "centrality": 0.09612019712357249,
+      "centrality": 0.08939087506036235,
       "degree": 2,
       "communityLabel": 2
+    },
+    {
+      "label": "Linked List",
+      "tooltip": "Linked List",
+      "lnk": "linked-list",
+      "id": "\"b00801b8-403a-499c-b39b-3608a1f124c6\"",
+      "centrality": 0.024012800735424923,
+      "degree": 1,
+      "communityLabel": 6
     },
     {
       "label": "Lifetimes in Rust",
       "tooltip": "Lifetimes in Rust",
       "lnk": "lifetimes-in-rust",
       "id": "\"cfd6d67e-a332-4a6e-b6ff-74bc408dd046\"",
-      "centrality": 0.09559891483057684,
+      "centrality": 0.09055776432373758,
       "degree": 1,
       "communityLabel": 9
     },
     {
-      "label": "Lambda expression in C++",
-      "tooltip": "Lambda expression in C++",
+      "label": "Lambda expressions in C++",
+      "tooltip": "Lambda expressions in C++",
       "lnk": "lambda-expressions-in-c++",
       "id": "\"c9e94900-85a7-400e-9a26-9b45566260ef\"",
-      "centrality": 0.008716475567793546,
-      "degree": 1,
-      "communityLabel": 1
+      "centrality": 0.1426516847385104,
+      "degree": 2,
+      "communityLabel": 0
+    },
+    {
+      "label": "Lambda calculus",
+      "tooltip": "Lambda calculus",
+      "lnk": "lambda-calculus",
+      "id": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\"",
+      "centrality": 0.3641272803017555,
+      "degree": 5,
+      "communityLabel": 4
     },
     {
       "label": "Kruskal's algorithm",
       "tooltip": "Kruskal's algorithm",
       "lnk": "kruskal's-algorithm",
       "id": "\"58b55bdc-a1ae-4554-945d-a4d958e2ea6a\"",
-      "centrality": 0.14119773977857825,
+      "centrality": 0.13327776782144826,
       "degree": 2,
-      "communityLabel": 4
+      "communityLabel": 6
     },
     {
       "label": "Isomorphism",
       "tooltip": "Isomorphism",
       "lnk": "isomorphism",
       "id": "\"b8e99aa0-fd86-46e3-aa26-5d75a7039970\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 2,
-      "communityLabel": 11
+      "communityLabel": 10
     },
     {
       "label": "Homomorphism",
       "tooltip": "Homomorphism",
       "lnk": "homomorphism",
       "id": "\"7c174dd8-1261-4ac6-9228-1fa330c8b26c\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 2,
-      "communityLabel": 11
+      "communityLabel": 10
     },
     {
       "label": "Heap data structure",
       "tooltip": "Heap data structure",
       "lnk": "heap-data-structure",
       "id": "\"b99b774f-43f1-4a65-8c96-3148d920e812\"",
-      "centrality": 0.1386053218043982,
+      "centrality": 0.13084504439256137,
       "degree": 2,
-      "communityLabel": 4
+      "communityLabel": 6
     },
     {
       "label": "Header files in C++",
       "tooltip": "Header files in C++",
       "lnk": "header-files-in-c++",
       "id": "\"388d9e7f-b895-4c4c-9c71-6db5587a16c9\"",
-      "centrality": 0.008716475567793546,
+      "centrality": 0.0041119574909646945,
       "degree": 1,
-      "communityLabel": 1
+      "communityLabel": 0
     },
     {
       "label": "Hash table",
       "tooltip": "Hash table",
       "lnk": "hash-table",
       "id": "\"2f32c597-dfd5-4728-b216-8a216f7db05c\"",
-      "centrality": 0.024674616797208438,
+      "centrality": 0.024012800735424923,
       "degree": 1,
-      "communityLabel": 4
+      "communityLabel": 6
     },
     {
       "label": "Habits",
       "tooltip": "Habits",
       "lnk": "habits",
       "id": "\"7a6eebfe-c429-4543-9b0b-74cf9b582842\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 1,
       "communityLabel": 13
     },
@@ -296,61 +395,79 @@
       "tooltip": "Graphics programming",
       "lnk": "graphics-programming",
       "id": "\"c6a57032-e524-4d73-9ced-583f5950e9c4\"",
-      "centrality": 0.6695466515971579,
+      "centrality": 0.6282903376683371,
       "degree": 6,
-      "communityLabel": 3
+      "communityLabel": 5
     },
     {
       "label": "Game development",
       "tooltip": "Game development",
       "lnk": "game-development",
       "id": "\"edea6b59-a488-4129-9647-19ffe0430f53\"",
-      "centrality": 0.0275315571090841,
+      "centrality": 0.02666519353062338,
       "degree": 1,
-      "communityLabel": 5
+      "communityLabel": 7
     },
     {
       "label": "Functional programming",
       "tooltip": "Functional programming",
       "lnk": "functional-programming",
       "id": "\"64c4379a-13c9-4fee-ad34-8c9348828470\"",
-      "centrality": 0.0944962313252337,
+      "centrality": 0.07663096546077809,
       "degree": 2,
-      "communityLabel": 7
+      "communityLabel": 4
     },
     {
       "label": "Fragmentation",
       "tooltip": "Fragmentation",
       "lnk": "fragmentation",
       "id": "\"2420ad87-9dad-4b90-9d5c-fe6bdcf36930\"",
-      "centrality": 0.09612019712357249,
+      "centrality": 0.08939087506036235,
       "degree": 2,
       "communityLabel": 2
+    },
+    {
+      "label": "Forwarding references in C++",
+      "tooltip": "Forwarding references in C++",
+      "lnk": "forwarding-references-in-c++",
+      "id": "\"66dea84e-f7e6-420c-8e83-e66ddf31c580\"",
+      "centrality": 0.1474954334155851,
+      "degree": 2,
+      "communityLabel": 3
+    },
+    {
+      "label": "Euclidean algorithm",
+      "tooltip": "Euclidean algorithm",
+      "lnk": "euclidean-algorithm",
+      "id": "\"fec1de38-ba54-406e-a591-31a761b9b8e9\"",
+      "centrality": 0.016175349475161107,
+      "degree": 1,
+      "communityLabel": 1
     },
     {
       "label": "Entity component system",
       "tooltip": "Entity component system",
       "lnk": "entity-component-system",
       "id": "\"a84e8e52-dbe0-4db9-b4da-7b3eefc2df4b\"",
-      "centrality": 0.0500990159837848,
+      "centrality": 0.0478449429749822,
       "degree": 1,
-      "communityLabel": 5
+      "communityLabel": 7
     },
     {
       "label": "Embarassingly parallel",
       "tooltip": "Embarassingly parallel",
       "lnk": "embarassingly-parallel",
       "id": "\"49b42028-42ff-4e79-b487-f2aaa8d898c7\"",
-      "centrality": 0.12806958138040517,
+      "centrality": 0.12043877147770968,
       "degree": 2,
-      "communityLabel": 3
+      "communityLabel": 5
     },
     {
       "label": "Emacs",
       "tooltip": "Emacs",
       "lnk": "emacs",
       "id": "\"dbf05b82-f6b5-4c8b-a0e9-f1dd3a4bba61\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 1,
       "communityLabel": 14
     },
@@ -359,16 +476,16 @@
       "tooltip": "Dynamic programming",
       "lnk": "dynamic-programming",
       "id": "\"acac1987-0d3b-4f26-9c5b-743a1c2f15be\"",
-      "centrality": 0.016315303276793914,
+      "centrality": 0.016175349475161107,
       "degree": 1,
-      "communityLabel": 0
+      "communityLabel": 1
     },
     {
       "label": "Doom Emacs cheatsheet",
       "tooltip": "Doom Emacs cheatsheet",
       "lnk": "doom-emacs-cheatsheet",
       "id": "\"e772e966-d0de-46ef-8810-1bc29faef158\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 1,
       "communityLabel": 14
     },
@@ -377,72 +494,108 @@
       "tooltip": "Disjoint set data structure",
       "lnk": "disjoint-set-data-structure",
       "id": "\"a0b41081-32f0-4b31-82a8-1353cea9dd50\"",
-      "centrality": 0.14706084100061625,
+      "centrality": 0.13877338101999057,
       "degree": 2,
-      "communityLabel": 4
+      "communityLabel": 6
     },
     {
       "label": "Dijkstra's algorithm",
       "tooltip": "Dijkstra's algorithm",
       "lnk": "dijkstra's-algorithm",
       "id": "\"ddcbbc96-afdb-46f5-b8cb-bf1d4aaf3482\"",
-      "centrality": 0.25533685706536585,
+      "centrality": 0.24030524061428082,
       "degree": 3,
-      "communityLabel": 0
+      "communityLabel": 1
     },
     {
       "label": "Destructors in C++",
       "tooltip": "Destructors in C++",
       "lnk": "destructors-in-c++",
       "id": "\"ca22c0c0-7b1c-4ee9-addd-44c38cb35878\"",
-      "centrality": 0.10385488550321244,
-      "degree": 2,
-      "communityLabel": 6
+      "centrality": 0.18914108006966848,
+      "degree": 3,
+      "communityLabel": 0
+    },
+    {
+      "label": "Decltype keyword in C++",
+      "tooltip": "Decltype keyword in C++",
+      "lnk": "decltype-keyword-in-c++",
+      "id": "\"92f23333-c865-45a0-83e2-3d78b43de87e\"",
+      "centrality": 0.15816985628154445,
+      "degree": 1,
+      "communityLabel": 15
+    },
+    {
+      "label": "Declaration, initialization, instantiation",
+      "tooltip": "Declaration, initialization, instantiation",
+      "lnk": "declaration-initialization-instantiation",
+      "id": "\"676839cf-f0f6-444a-9fb2-02bf16b71334\"",
+      "centrality": 0.02622647376475477,
+      "degree": 1,
+      "communityLabel": 12
     },
     {
       "label": "Data structure",
       "tooltip": "Data structure",
       "lnk": "data-structure",
       "id": "\"d2f04cde-4112-491e-b844-00c738b209a8\"",
-      "centrality": 0.4380418369629544,
+      "centrality": 0.41162793264635406,
       "degree": 4,
-      "communityLabel": 4
+      "communityLabel": 6
     },
     {
       "label": "Copy semantics in C++",
       "tooltip": "Copy semantics in C++",
       "lnk": "copy-semantics-in-c++",
       "id": "\"1acf294d-aa59-45c7-9088-081e57dc1519\"",
-      "centrality": 0.09267385989337232,
+      "centrality": 0.08223814669500276,
       "degree": 2,
-      "communityLabel": 6
+      "communityLabel": 3
     },
     {
       "label": "Constructors in C++",
       "tooltip": "Constructors in C++",
       "lnk": "constructors-in-c++",
       "id": "\"192dfb8c-89c9-4da2-bae5-7ee8778fd333\"",
-      "centrality": 0.008716475567793546,
+      "centrality": 0.0041119574909646945,
       "degree": 1,
-      "communityLabel": 1
+      "communityLabel": 0
+    },
+    {
+      "label": "Computer science",
+      "tooltip": "Computer science",
+      "lnk": "computer-science",
+      "id": "\"20e6f707-2a07-4bd6-bb0b-0e6f3f95ab3e\"",
+      "centrality": 0.08826784803139363,
+      "degree": 2,
+      "communityLabel": 4
     },
     {
       "label": "Compounding resources",
       "tooltip": "Compounding resources",
       "lnk": "compounding-resources",
       "id": "\"432b9545-665a-4826-acf6-52471da2e7e7\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 1,
       "communityLabel": 13
+    },
+    {
+      "label": "Compiler optimizations in C++",
+      "tooltip": "Compiler optimizations in C++",
+      "lnk": "compiler-optimizations-in-c++",
+      "id": "\"83510064-9dde-4be3-98dc-1dd739fbb9c3\"",
+      "centrality": 0.1426516847385104,
+      "degree": 2,
+      "communityLabel": 0
     },
     {
       "label": "Category theory",
       "tooltip": "Category theory",
       "lnk": "category-theory",
       "id": "\"263040fa-9cd1-479c-8907-ccb8e7709329\"",
-      "centrality": 0.1677450053302357,
+      "centrality": 0.15816985628154445,
       "degree": 2,
-      "communityLabel": 11
+      "communityLabel": 10
     },
     {
       "label": "Cache affinity",
@@ -459,51 +612,15 @@
       "lnk": "c++",
       "id": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\"",
       "centrality": 1.0,
-      "degree": 9,
-      "communityLabel": 1
+      "degree": 10,
+      "communityLabel": 0
     },
     {
       "label": "Breadth-first search",
       "tooltip": "Breadth-first search",
       "lnk": "breadth-first-search",
       "id": "\"cf871b23-a42b-4676-ae4b-cfbc60ecf18c\"",
-      "centrality": 0.13024600828398367,
-      "degree": 2,
-      "communityLabel": 0
-    },
-    {
-      "label": "Bevy",
-      "tooltip": "Bevy",
-      "lnk": "bevy",
-      "id": "\"b1644f3b-3511-4952-b202-55f3200ad9ff\"",
-      "centrality": 0.20543787692756707,
-      "degree": 2,
-      "communityLabel": 5
-    },
-    {
-      "label": "Algorithm",
-      "tooltip": "Algorithm",
-      "lnk": "algorithm",
-      "id": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\"",
-      "centrality": 0.9441451032163768,
-      "degree": 8,
-      "communityLabel": 0
-    },
-    {
-      "label": "Signed distance function",
-      "tooltip": "Signed distance function",
-      "lnk": "signed-distance-function",
-      "id": "\"9f29c02f-d0b0-4402-9377-2abbdffc9502\"",
-      "centrality": 0.03542243225014341,
-      "degree": 1,
-      "communityLabel": 3
-    },
-    {
-      "label": "Compiler optimizations in C++",
-      "tooltip": "Compiler optimizations in C++",
-      "lnk": "compiler-optimizations-in-c++",
-      "id": "\"83510064-9dde-4be3-98dc-1dd739fbb9c3\"",
-      "centrality": 0.15944000972454045,
+      "centrality": 0.12300759313229759,
       "degree": 2,
       "communityLabel": 1
     },
@@ -512,135 +629,63 @@
       "tooltip": "Binary search",
       "lnk": "binary-search",
       "id": "\"6a594f93-8a4c-406f-ab87-45af5e3c00d8\"",
-      "centrality": 0.016315303276793914,
+      "centrality": 0.016175349475161107,
       "degree": 1,
-      "communityLabel": 0
+      "communityLabel": 1
     },
     {
-      "label": "Phong lighting",
-      "tooltip": "Phong lighting",
-      "lnk": "phong-lighting",
-      "id": "\"92cdb7d1-115c-46ce-b400-c57fe5c77601\"",
-      "centrality": 0.01604658397717625,
+      "label": "Bevy",
+      "tooltip": "Bevy",
+      "lnk": "bevy",
+      "id": "\"b1644f3b-3511-4952-b202-55f3200ad9ff\"",
+      "centrality": 0.19348714641183892,
+      "degree": 2,
+      "communityLabel": 7
+    },
+    {
+      "label": "Auto keyword in C++",
+      "tooltip": "Auto keyword in C++",
+      "lnk": "auto-keyword-in-c++",
+      "id": "\"0fe756e8-35ff-49ee-92b9-883ce2818c24\"",
+      "centrality": 0.15816985628154445,
       "degree": 1,
-      "communityLabel": 3
+      "communityLabel": 15
     },
     {
       "label": "As-if rule in C++",
       "tooltip": "As-if rule in C++",
       "lnk": "as-if-rule-in-c++",
       "id": "\"813ea897-d04c-4da7-bf10-150609e4fb06\"",
-      "centrality": 0.03053540882076436,
+      "centrality": 0.02622647376475477,
       "degree": 1,
+      "communityLabel": 0
+    },
+    {
+      "label": "Algorithm",
+      "tooltip": "Algorithm",
+      "lnk": "algorithm",
+      "id": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\"",
+      "centrality": 0.8861928780333734,
+      "degree": 8,
       "communityLabel": 1
     },
     {
-      "label": "Lambda calculus",
-      "tooltip": "Lambda calculus",
-      "lnk": "lambda-calculus",
-      "id": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\"",
-      "centrality": 0.31356117421041774,
-      "degree": 4,
-      "communityLabel": 7
-    },
-    {
-      "label": "Computer science",
-      "tooltip": "Computer science",
-      "lnk": "computer-science",
-      "id": "\"20e6f707-2a07-4bd6-bb0b-0e6f3f95ab3e\"",
-      "centrality": 0.10539714472612069,
+      "label": "Access specifiers in C++",
+      "tooltip": "Access specifiers in C++",
+      "lnk": "access-specifiers-in-c++",
+      "id": "\"0ba3e71b-50eb-4f54-a6a6-a54241b196d7\"",
+      "centrality": 0.09644896379151817,
       "degree": 2,
-      "communityLabel": 7
-    },
-    {
-      "label": "Models of Computation",
-      "tooltip": "Models of Computation",
-      "lnk": "models-of-computation",
-      "id": "\"50ccd646-aae1-49b6-8a56-91723f11d463\"",
-      "centrality": 0.10539714472612069,
-      "degree": 2,
-      "communityLabel": 7
-    },
-    {
-      "label": "Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Sussman, Julie Sussman",
-      "tooltip": "Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Sussman, Julie Sussman",
-      "lnk": "structure-and-interpretation-of-computer-programs---harold-abelson-gerald-sussman-julie-sussman",
-      "id": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
-      "centrality": 0.19300935973534294,
-      "degree": 3,
-      "communityLabel": 7
-    },
-    {
-      "label": "Euclidean algorithm",
-      "tooltip": "Euclidean algorithm",
-      "lnk": "euclidean-algorithm",
-      "id": "\"fec1de38-ba54-406e-a591-31a761b9b8e9\"",
-      "centrality": 0.016315303276793914,
-      "degree": 1,
       "communityLabel": 0
     },
     {
-      "label": "Recursively Enumerable",
-      "tooltip": "Recursively Enumerable",
-      "lnk": "recursively-enumerable",
-      "id": "\"01590106-9895-4b5e-98f9-4b5bb44a9059\"",
-      "centrality": 0.016315303276793914,
-      "degree": 1,
-      "communityLabel": 0
-    },
-    {
-      "label": "Linked List",
-      "tooltip": "Linked List",
-      "lnk": "linked-list",
-      "id": "\"b00801b8-403a-499c-b39b-3608a1f124c6\"",
-      "centrality": 0.024674616797208438,
-      "degree": 1,
+      "label": "Abstraction",
+      "tooltip": "Abstraction",
+      "lnk": "abstraction",
+      "id": "\"98b35409-6bb5-4f9c-b1cb-09ffe763f908\"",
+      "centrality": 0.07663096546077809,
+      "degree": 2,
       "communityLabel": 4
-    },
-    {
-      "label": "Forwarding references in C++",
-      "tooltip": "Forwarding references in C++",
-      "lnk": "forwarding-references-in-c++",
-      "id": "\"66dea84e-f7e6-420c-8e83-e66ddf31c580\"",
-      "centrality": 0.16056706769611268,
-      "degree": 2,
-      "communityLabel": 10
-    },
-    {
-      "label": "Move semantics in C++",
-      "tooltip": "Move semantics in C++",
-      "lnk": "move-semantics-in-c++",
-      "id": "\"d10135e0-142a-4098-9211-e9810149491e\"",
-      "centrality": 0.20171126224893912,
-      "degree": 3,
-      "communityLabel": 6
-    },
-    {
-      "label": "References in C++",
-      "tooltip": "References in C++",
-      "lnk": "references-in-c++",
-      "id": "\"dc5c5065-e92b-4ea0-af6e-db8b99a8adea\"",
-      "centrality": 0.2380867852571839,
-      "degree": 3,
-      "communityLabel": 10
-    },
-    {
-      "label": "Declaration, initialization, instantiation",
-      "tooltip": "Declaration, initialization, instantiation",
-      "lnk": "declaration-initialization-instantiation",
-      "id": "\"676839cf-f0f6-444a-9fb2-02bf16b71334\"",
-      "centrality": 0.03053540882076436,
-      "degree": 1,
-      "communityLabel": 1
-    },
-    {
-      "label": "Variable assignment and initialization in C++",
-      "tooltip": "Variable assignment and initialization in C++",
-      "lnk": "variable-assignment-and-initialization-in-c++",
-      "id": "\"4c7d3d10-9f66-4c79-9e24-8674b2c62a5a\"",
-      "centrality": 0.15944000972454045,
-      "degree": 2,
-      "communityLabel": 1
     }
   ],
   "links": [
@@ -685,6 +730,10 @@
       "target": "\"9e996038-090f-4d85-89d3-56a1228c69ae\""
     },
     {
+      "source": "\"4c7d3d10-9f66-4c79-9e24-8674b2c62a5a\"",
+      "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
+    },
+    {
       "source": "\"c06deb9f-8ead-4080-b915-75dba776004f\"",
       "target": "\"b1644f3b-3511-4952-b202-55f3200ad9ff\""
     },
@@ -701,6 +750,22 @@
       "target": "\"96a0eb88-4cfb-4c0e-b0cb-20fc18111daa\""
     },
     {
+      "source": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
+      "target": "\"5b84e682-62cb-4c47-a5c2-7baeb8ffff83\""
+    },
+    {
+      "source": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
+      "target": "\"64c4379a-13c9-4fee-ad34-8c9348828470\""
+    },
+    {
+      "source": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
+      "target": "\"98b35409-6bb5-4f9c-b1cb-09ffe763f908\""
+    },
+    {
+      "source": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
+      "target": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\""
+    },
+    {
       "source": "\"96a0eb88-4cfb-4c0e-b0cb-20fc18111daa\"",
       "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
     },
@@ -709,12 +774,32 @@
       "target": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\""
     },
     {
+      "source": "\"9f29c02f-d0b0-4402-9377-2abbdffc9502\"",
+      "target": "\"769889d2-5185-4439-9f32-89b3492a154a\""
+    },
+    {
       "source": "\"268bd7cf-b9c4-424c-b770-ed80abcfdad1\"",
       "target": "\"c6a57032-e524-4d73-9ced-583f5950e9c4\""
     },
     {
       "source": "\"793edec7-bbcb-4516-b947-03f71d8f17c1\"",
       "target": "\"c63f0bfb-38bf-44df-8bd6-4f09b06f32ff\""
+    },
+    {
+      "source": "\"dc5c5065-e92b-4ea0-af6e-db8b99a8adea\"",
+      "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
+    },
+    {
+      "source": "\"dc5c5065-e92b-4ea0-af6e-db8b99a8adea\"",
+      "target": "\"d10135e0-142a-4098-9211-e9810149491e\""
+    },
+    {
+      "source": "\"01590106-9895-4b5e-98f9-4b5bb44a9059\"",
+      "target": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\""
+    },
+    {
+      "source": "\"0d2cc019-6adf-4e08-aabc-bb19447925f5\"",
+      "target": "\"c9e94900-85a7-400e-9a26-9b45566260ef\""
     },
     {
       "source": "\"769889d2-5185-4439-9f32-89b3492a154a\"",
@@ -745,6 +830,10 @@
       "target": "\"b34e0f7d-6277-4875-ba5a-238d80ced896\""
     },
     {
+      "source": "\"92cdb7d1-115c-46ce-b400-c57fe5c77601\"",
+      "target": "\"c6a57032-e524-4d73-9ced-583f5950e9c4\""
+    },
+    {
       "source": "\"e6869bc0-6ce2-4bf2-9e84-eb1a1fdbc2e3\"",
       "target": "\"66dea84e-f7e6-420c-8e83-e66ddf31c580\""
     },
@@ -757,8 +846,20 @@
       "target": "\"30f95398-5693-45a4-bdfa-7741cb45857c\""
     },
     {
+      "source": "\"d10135e0-142a-4098-9211-e9810149491e\"",
+      "target": "\"96a0eb88-4cfb-4c0e-b0cb-20fc18111daa\""
+    },
+    {
       "source": "\"954c7ba2-0ab1-44f0-a64d-17ec2b1e988c\"",
       "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
+    },
+    {
+      "source": "\"50ccd646-aae1-49b6-8a56-91723f11d463\"",
+      "target": "\"20e6f707-2a07-4bd6-bb0b-0e6f3f95ab3e\""
+    },
+    {
+      "source": "\"50ccd646-aae1-49b6-8a56-91723f11d463\"",
+      "target": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\""
     },
     {
       "source": "\"b39ee91f-cc61-4bf0-be11-30b8442187d9\"",
@@ -773,12 +874,28 @@
       "target": "\"2420ad87-9dad-4b90-9d5c-fe6bdcf36930\""
     },
     {
+      "source": "\"b00801b8-403a-499c-b39b-3608a1f124c6\"",
+      "target": "\"d2f04cde-4112-491e-b844-00c738b209a8\""
+    },
+    {
       "source": "\"cfd6d67e-a332-4a6e-b6ff-74bc408dd046\"",
       "target": "\"c63f0bfb-38bf-44df-8bd6-4f09b06f32ff\""
     },
     {
       "source": "\"c9e94900-85a7-400e-9a26-9b45566260ef\"",
       "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
+    },
+    {
+      "source": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\"",
+      "target": "\"20e6f707-2a07-4bd6-bb0b-0e6f3f95ab3e\""
+    },
+    {
+      "source": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\"",
+      "target": "\"98b35409-6bb5-4f9c-b1cb-09ffe763f908\""
+    },
+    {
+      "source": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\"",
+      "target": "\"64c4379a-13c9-4fee-ad34-8c9348828470\""
     },
     {
       "source": "\"58b55bdc-a1ae-4554-945d-a4d958e2ea6a\"",
@@ -825,6 +942,14 @@
       "target": "\"e5f5b1e7-aa09-46d0-84f7-9dd0cdd2cb75\""
     },
     {
+      "source": "\"66dea84e-f7e6-420c-8e83-e66ddf31c580\"",
+      "target": "\"dc5c5065-e92b-4ea0-af6e-db8b99a8adea\""
+    },
+    {
+      "source": "\"fec1de38-ba54-406e-a591-31a761b9b8e9\"",
+      "target": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\""
+    },
+    {
       "source": "\"a84e8e52-dbe0-4db9-b4da-7b3eefc2df4b\"",
       "target": "\"b1644f3b-3511-4952-b202-55f3200ad9ff\""
     },
@@ -869,6 +994,18 @@
       "target": "\"96a0eb88-4cfb-4c0e-b0cb-20fc18111daa\""
     },
     {
+      "source": "\"ca22c0c0-7b1c-4ee9-addd-44c38cb35878\"",
+      "target": "\"0ba3e71b-50eb-4f54-a6a6-a54241b196d7\""
+    },
+    {
+      "source": "\"92f23333-c865-45a0-83e2-3d78b43de87e\"",
+      "target": "\"0fe756e8-35ff-49ee-92b9-883ce2818c24\""
+    },
+    {
+      "source": "\"676839cf-f0f6-444a-9fb2-02bf16b71334\"",
+      "target": "\"4c7d3d10-9f66-4c79-9e24-8674b2c62a5a\""
+    },
+    {
       "source": "\"1acf294d-aa59-45c7-9088-081e57dc1519\"",
       "target": "\"96a0eb88-4cfb-4c0e-b0cb-20fc18111daa\""
     },
@@ -881,6 +1018,10 @@
       "target": "\"7a6eebfe-c429-4543-9b0b-74cf9b582842\""
     },
     {
+      "source": "\"83510064-9dde-4be3-98dc-1dd739fbb9c3\"",
+      "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
+    },
+    {
       "source": "\"c7b894e3-33f7-40b4-918e-cb675976f3e6\"",
       "target": "\"30f95398-5693-45a4-bdfa-7741cb45857c\""
     },
@@ -889,87 +1030,15 @@
       "target": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\""
     },
     {
-      "source": "\"9f29c02f-d0b0-4402-9377-2abbdffc9502\"",
-      "target": "\"769889d2-5185-4439-9f32-89b3492a154a\""
-    },
-    {
-      "source": "\"83510064-9dde-4be3-98dc-1dd739fbb9c3\"",
-      "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
-    },
-    {
       "source": "\"6a594f93-8a4c-406f-ab87-45af5e3c00d8\"",
       "target": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\""
-    },
-    {
-      "source": "\"92cdb7d1-115c-46ce-b400-c57fe5c77601\"",
-      "target": "\"c6a57032-e524-4d73-9ced-583f5950e9c4\""
     },
     {
       "source": "\"813ea897-d04c-4da7-bf10-150609e4fb06\"",
       "target": "\"83510064-9dde-4be3-98dc-1dd739fbb9c3\""
     },
     {
-      "source": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\"",
-      "target": "\"20e6f707-2a07-4bd6-bb0b-0e6f3f95ab3e\""
-    },
-    {
-      "source": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\"",
-      "target": "\"64c4379a-13c9-4fee-ad34-8c9348828470\""
-    },
-    {
-      "source": "\"50ccd646-aae1-49b6-8a56-91723f11d463\"",
-      "target": "\"20e6f707-2a07-4bd6-bb0b-0e6f3f95ab3e\""
-    },
-    {
-      "source": "\"50ccd646-aae1-49b6-8a56-91723f11d463\"",
-      "target": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\""
-    },
-    {
-      "source": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
-      "target": "\"5b84e682-62cb-4c47-a5c2-7baeb8ffff83\""
-    },
-    {
-      "source": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
-      "target": "\"64c4379a-13c9-4fee-ad34-8c9348828470\""
-    },
-    {
-      "source": "\"f6f00340-1fe1-43ce-af3c-6aa082bfe97f\"",
-      "target": "\"4be8fb3c-1123-4f0c-99fd-44dea25c902c\""
-    },
-    {
-      "source": "\"fec1de38-ba54-406e-a591-31a761b9b8e9\"",
-      "target": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\""
-    },
-    {
-      "source": "\"01590106-9895-4b5e-98f9-4b5bb44a9059\"",
-      "target": "\"3bac1ece-5f8e-4889-a372-986d4e1f1b4a\""
-    },
-    {
-      "source": "\"b00801b8-403a-499c-b39b-3608a1f124c6\"",
-      "target": "\"d2f04cde-4112-491e-b844-00c738b209a8\""
-    },
-    {
-      "source": "\"66dea84e-f7e6-420c-8e83-e66ddf31c580\"",
-      "target": "\"dc5c5065-e92b-4ea0-af6e-db8b99a8adea\""
-    },
-    {
-      "source": "\"d10135e0-142a-4098-9211-e9810149491e\"",
-      "target": "\"96a0eb88-4cfb-4c0e-b0cb-20fc18111daa\""
-    },
-    {
-      "source": "\"dc5c5065-e92b-4ea0-af6e-db8b99a8adea\"",
-      "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
-    },
-    {
-      "source": "\"dc5c5065-e92b-4ea0-af6e-db8b99a8adea\"",
-      "target": "\"d10135e0-142a-4098-9211-e9810149491e\""
-    },
-    {
-      "source": "\"676839cf-f0f6-444a-9fb2-02bf16b71334\"",
-      "target": "\"4c7d3d10-9f66-4c79-9e24-8674b2c62a5a\""
-    },
-    {
-      "source": "\"4c7d3d10-9f66-4c79-9e24-8674b2c62a5a\"",
+      "source": "\"0ba3e71b-50eb-4f54-a6a6-a54241b196d7\"",
       "target": "\"b3ce6e1f-8ffb-492a-98d7-89ee24984612\""
     }
   ]
