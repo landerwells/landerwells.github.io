@@ -1,7 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Lander Wells'
-theme = 'kachka'
 
 refLinksErrorLevel = 'warning'
 disableKinds = ['rss']

@@ -1,11 +1,4 @@
-***  todo list [0/7]:
-- [ ] Work out table of contents option
-- [ ] Improved code blocks
-- [ ] Move index pages into notes, and convert them to org, that way they can be
-  easily updated
-- [ ] Convert to personal wiki
-- [ ] Uniform stylesheet for notes and blogs that can accept different options?
-  - [ ] better tables
-- [ ] Toast feature?
-- [ ] 404 page
+#+title: Personal Portfolio
 
+- [ ] Toast feature
+- [ ] Better looking tables in notes
