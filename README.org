@@ -1,4 +1,9 @@
 #+title: Personal Portfolio
 
+* TODO [0/6]
 - [ ] Toast feature
 - [ ] Better looking tables in notes
+- [ ] Better mobile/desktop specific support
+- [ ] Search feature for notes
+- [ ] Specific note formatting 
+- [ ] Work on style overall
