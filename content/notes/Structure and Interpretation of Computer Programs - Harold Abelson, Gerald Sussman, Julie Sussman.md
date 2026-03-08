@@ -5,20 +5,6 @@ tags = ["publish"]
 draft = false
 +++
 
-<div class="ox-hugo-toc toc">
-
-<div class="heading">Table of Contents</div>
-
-- [Building Abstractions with Procedures](#building-abstractions-with-procedures)
-    - [The Elements of Programming](#the-elements-of-programming)
-- [Building Abstractions with Data](#building-abstractions-with-data)
-- [Modularity, Objects, and State](#modularity-objects-and-state)
-- [Metalinguistic Abstraction](#metalinguistic-abstraction)
-- [Computing with Register Machines](#computing-with-register-machines)
-
-</div>
-<!--endtoc-->
-
 Not much in a Zettelkasten is meant for publishing. I publish a small subset of
 my atomic notes, and none of my reference notes which are taken directly from a
 specific source. I wanted to make an exception for this note as I am starting

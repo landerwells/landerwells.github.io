@@ -7,6 +7,8 @@ draft = false
 
 Previous: [Emacs]({{< relref "Emacs.md" >}})
 
+Doom Emacs is a mneumonic editor based off Emacs with Vi bindings.
+
 Here are some of the commands that I find myself using most in Doom Emacs.
 
 

@@ -19,11 +19,6 @@ disableKinds = ['rss']
     unsafe = true
   [markup.highlight]
     codeFences = false
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
-
 
 [frontmatter]
   lastmod = [":git", ":fileModTime", "lastmod"]
