@@ -1,9 +1,9 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Lander Wells'
+title = "Lander's blog"
+theme = ['hugo-bearblog']
 
 refLinksErrorLevel = 'warning'
-disableKinds = ['rss']
 
 [caches]
   [caches.images]
@@ -18,8 +18,40 @@ disableKinds = ['rss']
   [markup.goldmark.renderer]
     unsafe = true
   [markup.highlight]
-    codeFences = false
+    codeFences = true
+    style = "solarized-dark"
+    noClasses = true
 
 [frontmatter]
   lastmod = [":git", ":fileModTime", "lastmod"]
   publishDate = ['publishDate']
+
+[[menu.main]]
+    name = "landerwells@gmail.com"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "blog"
+    url = "/blog"
+    weight = 2
+
+[[menu.main]]
+    name = "notes"
+    url = "/notes"
+    weight = 3
+
+[[menu.main]]
+    name = "github"
+    url = "https://github.com/landerwells"
+    weight = 4
+
+[[menu.main]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/landerwells"
+    weight = 5
+
+[[menu.main]]
+    name = "RSS"
+    url = "/blog/index.xml"
+    weight = 6
