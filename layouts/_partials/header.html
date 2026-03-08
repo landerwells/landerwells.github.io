@@ -3,10 +3,10 @@
   <h2 style="display: inline; vertical-align: middle;">{{ .Site.Title }}</h2>
 </a>
 <nav>
-  <a href="mailto:{{ .Site.Params.email }}" class="email-link">Email</a>
   <a href="{{ "blog" | relURL }}">Blog</a>
   <a href="{{ "notes" | relURL }}">Notes</a>
   <a href="{{ .Site.Params.github }}" target="_blank">GitHub</a>
   <a href="{{ .Site.Params.linkedin }}" target="_blank">LinkedIn</a>
+  <a href="mailto:{{ .Site.Params.email }}" class="email-link">Email</a>
   <a href="{{ "blog/index.xml" | relURL }}">RSS</a>
 </nav>
