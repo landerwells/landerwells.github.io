@@ -30,7 +30,7 @@ emphasis on modern C++ and Rust. I study technical books and papers and maintain
 structured notes using the Zettelkasten method, covering topics such as
 low-level design, language features, and software architecture.
 
-# Professional experience
+### Professional experience
 
 | | |
 |------|----------|
@@ -38,14 +38,14 @@ low-level design, language features, and software architecture.
 | Jun, 2023 - Aug, 2023 | Software Developer Intern at Leidos |
 | Jun, 2021 - Aug, 2022 | Assistant Strength Coach at Lakeville South High School |
 
-# Education
+### Education
 
 | | |
 |------|----------|
 | Aug, 2020 - May, 2024 | BS in Computer Science, Northern Michigan University |
 | Sep, 2018 - May, 2020 | Lakeville South High School |
 
-# Portfolio
+### Portfolio
 
 [Rustify](https://github.com/landerwells/Rustify) is an light, cross-platform
 audio player built with the Rust programming language, designed to offer a

@@ -24,4 +24,8 @@
   <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
   {{ end }}
 </p>
+
+{{ if eq .Section "notes" }}
+  {{ partial "backlinks.html" . }}
+{{ end }}
 {{ end }}
