@@ -5,7 +5,7 @@ tags = ["publish"]
 draft = false
 +++
 
-Previous: [Multithreading]({{< relref "Multithreading.md" >}})
+Previous: [Parallelism]({{< relref "Parallelism.md" >}})
 
 Embarassingly parallel is a term used when a problem or workload where little or
 no effort is needed to split the problem into a number of parallel tasks.
