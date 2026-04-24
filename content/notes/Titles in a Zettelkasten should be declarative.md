@@ -5,6 +5,8 @@ tags = ["publish"]
 draft = false
 +++
 
+Previous: [A Zettelkasten is a system for thinking and writing]({{< relref "A Zettelkasten is a system for thinking and writing.md" >}})
+
 Titles in a Zettelkasten should be declarative. Titles with ambiguous names do
 not accurately represent their contents to the reader at a glance.
 

@@ -5,6 +5,8 @@ tags = ["publish"]
 draft = false
 +++
 
+Previous: [A Zettelkasten is a system for thinking and writing]({{< relref "A Zettelkasten is a system for thinking and writing.md" >}})
+
 The Zettelkasten is a bottom-up note-taking system, meaning there is little
 structure imposed to organize or categorize main notes. The structure comes
 from the relationship between the main notes and the connections they form.

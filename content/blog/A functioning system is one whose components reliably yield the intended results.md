@@ -5,6 +5,8 @@ tags = ["blog"]
 draft = false
 +++
 
+Previous: [A Zettelkasten is a system for thinking and writing]({{< relref "A Zettelkasten is a system for thinking and writing.md" >}})
+
 I spend a lot of time taking notes. I am a follower of the [Zettelkasten]({{< relref "A Zettelkasten is a system for thinking and writing.md" >}}) method,
 but my writing output has been minimal. The Zettelkasten is a system to improve
 thinking and writing, but it doesn't matter how good the tool is if it never

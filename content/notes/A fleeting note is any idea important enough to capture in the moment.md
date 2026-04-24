@@ -5,6 +5,8 @@ tags = ["publish"]
 draft = false
 +++
 
+Previous: [A Zettelkasten is a system for thinking and writing]({{< relref "A Zettelkasten is a system for thinking and writing.md" >}})
+
 Fleeting notes, along with reference notes, are the entryway for ideas into your
 Zettelkasten. A fleeting note is any idea important enough to capture in the
 moment. This can be anything: "A reference note is for capturing ideas from a
