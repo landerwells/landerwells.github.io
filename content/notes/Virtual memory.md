@@ -16,4 +16,3 @@ Hera are some additional notes on the topic:
 -   [Virtual address space]({{< relref "Virtual address space.md" >}})
 -   [Memory segmentation]({{< relref "Memory segmentation.md" >}})
 -   [Memory paging]({{< relref "Memory paging.md" >}})
--   [Translation lookaside buffer]({{< relref "Translation lookaside buffer.md" >}})

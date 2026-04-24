@@ -1,0 +1,19 @@
++++
+title = "Simple ideas are the basis on which complexity forms"
+publishDate = 2026-04-24T00:00:00-05:00
+tags = ["publish"]
+draft = false
++++
+
+Previous: [The atomicity-complexity tradeoff is the tension between a note's independence and its contextual richness]({{< relref "The atomicity-specificity tradeoff is the tension between a note's independence and its contextual richness.md" >}})
+
+Simple ideas are the basis on which complexity forms. To reach expertise in any
+domain requires a foundation built upon simple ideas. These ideas are then tied
+together into consistent theories to build up chains of thought with greater
+complexity.
+
+> The main compartment of the zettelkasten is an anarchy of ideas: a personal
+> knowledge base without hierarchy, without centers of power, without top-down
+> structure. In this sense, it's a distributed network, a system where every idea
+> is both an intersection and a point of departure.
+> [1]

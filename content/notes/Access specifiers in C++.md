@@ -7,6 +7,10 @@ draft = false
 
 Previous: [C++]({{< relref "C++.md" >}})
 
+This is a note that I
+
+Access specifiers control how members in a class type can be
+
 In C++, access specifiers control how class, struct, or union members can be
 accessed from outside the class or by derived types. The three available
 specifiers are public, protected, and private.

@@ -35,9 +35,6 @@ draft = false
     - [Heading with Single Tag](#heading-with-single-tag):work:
     - [Heading with Multiple Tags](#heading-with-multiple-tags):work:important:
     - [Heading with Inherited Tags](#heading-with-inherited-tags):project:development:
-- [Properties and Drawers](#properties-and-drawers)
-    - [Heading with Properties](#heading-with-properties)
-    - [Heading with Logbook](#heading-with-logbook)
 - [Mathematical Expressions (LaTeX)](#mathematical-expressions--latex)
     - [Inline Math](#inline-math)
     - [Display Math](#display-math)
@@ -297,15 +294,6 @@ Content after the rule.
 
 
 ### Heading with Inherited Tags <span class="tag"><span class="project">project</span><span class="development">development</span></span> {#heading-with-inherited-tags}
-
-
-## Properties and Drawers {#properties-and-drawers}
-
-
-### Heading with Properties {#heading-with-properties}
-
-
-### Heading with Logbook {#heading-with-logbook}
 
 
 ## Mathematical Expressions (LaTeX) {#mathematical-expressions--latex}

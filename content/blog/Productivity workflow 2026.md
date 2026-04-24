@@ -93,7 +93,7 @@ reading system contains the following pieces:
     strip the context, making a note that stands on its own.
 
 If you are curious to learn more about this process, it is essentially what the
-[Zettelkasten]({{< relref "Zettelkasten.md" >}}) system is.
+Zettelkasten system is.
 
 
 ## Conclusion {#conclusion}
