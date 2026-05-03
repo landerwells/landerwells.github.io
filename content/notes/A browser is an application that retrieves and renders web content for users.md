@@ -5,8 +5,6 @@ tags = ["publish"]
 draft = false
 +++
 
-Previous: [The internet is a network of computers communicating through a set of protocols]({{< relref "The internet is a network of computers communicating through a set of protocols.md" >}})
-
 A browser is an application that retrieves and renders web content for users.
 Despite appearances, browsers are incredibly complex pieces of software
 comprised of many individual components. They are responsible for connecting to

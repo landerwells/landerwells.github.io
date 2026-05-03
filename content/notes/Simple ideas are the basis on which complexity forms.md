@@ -5,8 +5,6 @@ tags = ["publish"]
 draft = false
 +++
 
-Previous: [The atomicity-complexity tradeoff is the tension between a note's independence and its contextual richness]({{< relref "The atomicity-specificity tradeoff is the tension between a note's independence and its contextual richness.md" >}})
-
 Simple ideas are the basis on which complexity forms. To reach expertise in any
 domain requires a foundation built upon simple ideas. These ideas are then tied
 together into consistent theories to build up chains of thought with greater

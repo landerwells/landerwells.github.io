@@ -5,8 +5,6 @@ tags = ["publish"]
 draft = false
 +++
 
-Previous: [A Zettelkasten is a system for thinking and writing]({{< relref "A Zettelkasten is a system for thinking and writing.md" >}})
-
 A main note is a self-contained unit of information. Its primary purposes are to
 provide value to the writer, and be able to connect with other main notes.
 
@@ -26,6 +24,6 @@ provide value to the writer, and be able to connect with other main notes.
 
 <div class="csl-bib-body">
   <div class="csl-entry"><a id="citeproc_bib_item_1"></a>
-    <div class="csl-left-margin">[1]</div><div class="csl-right-inline">B. Doto, “Crafting the Information You Capture in Main Notes,” Mar. 24, 2026. <a href="https://writing.bobdoto.computer/crafting-the-information-you-capture-in-main-notes/">https://writing.bobdoto.computer/crafting-the-information-you-capture-in-main-notes/</a> (accessed Apr. 01, 2026).</div>
+    <div class="csl-left-margin">[1]</div><div class="csl-right-inline">“Crafting the Information You Capture in Main Notes,” Mar. 24, 2026. <a href="https://writing.bobdoto.computer/crafting-the-information-you-capture-in-main-notes/">https://writing.bobdoto.computer/crafting-the-information-you-capture-in-main-notes/</a> (accessed Apr. 01, 2026).</div>
   </div>
 </div>

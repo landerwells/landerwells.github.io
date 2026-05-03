@@ -7,6 +7,8 @@ draft = false
 
 Previous: [Bevy]({{< relref "Bevy.md" >}})
 
+An Entity Component System (ECS) is a game engine design pattern
+
 Entity component sysetm (ECS) is a design pattern that involves breaking a
 program up into entities, components, and systems. Entities are unique things
 which are assigned components, and then processed using systems.

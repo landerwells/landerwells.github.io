@@ -5,8 +5,6 @@ tags = ["publish"]
 draft = false
 +++
 
-Previous: [A main note is a self-contained unit of information]({{< relref "A main note is a self-contained unit of information.md" >}})
-
 The atomicity-complexity tradeoff is the tension between a note's independence
 and its contextual richness. The more a note stands without its original
 context, the better it can be connected with other notes and arguments. This is
