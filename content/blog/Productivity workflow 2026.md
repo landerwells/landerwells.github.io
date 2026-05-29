@@ -10,7 +10,7 @@ help me stay on track with my goals. I have been tinkering with what that
 productivity system will entail for a few months, and I finally feel what I am
 doing is working well enough for me to write about it.
 
-I am currently using [Emacs]({{< relref "Emacs.md" >}}) and Org-mode for everything. Obsidian is a great
+I am currently using Emacs and Org-mode for everything. Obsidian is a great
 choice as well since it has much better mobile support. Regardless of the
 application, I still feel the following areas are a necessity for my
 productivity:
