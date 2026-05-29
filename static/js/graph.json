@@ -4,236 +4,20 @@
   "graph": {},
   "nodes": [
     {
-      "label": "Virtual address space",
-      "tooltip": "Virtual address space",
-      "lnk": "virtual-address-space",
-      "id": "\"b34e0f7d-6277-4875-ba5a-238d80ced896\"",
-      "centrality": 0.0,
-      "degree": 0,
-      "communityLabel": 13
-    },
-    {
-      "label": "The rule of three, five, and zero in C++",
-      "tooltip": "The rule of three, five, and zero in C++",
-      "lnk": "the-rule-of-three-five-and-zero-in-c++",
-      "id": "\"cdb6eea9-4902-4756-a2f4-49304b0d0c0a\"",
-      "centrality": 0.7995586767486925,
-      "degree": 2,
-      "communityLabel": 2
-    },
-    {
-      "label": "System design interview template",
-      "tooltip": "System design interview template",
-      "lnk": "system-design-interview-template",
-      "id": "\"6590e488-d2f9-40ee-97d1-245b09675049\"",
-      "centrality": 0.0,
-      "degree": 0,
-      "communityLabel": 14
-    },
-    {
-      "label": "Smart pointers in C++",
-      "tooltip": "Smart pointers in C++",
-      "lnk": "smart-pointers-in-c++",
-      "id": "\"d2bab5f7-197a-4b9c-8248-c88ed506cb33\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 5
-    },
-    {
-      "label": "Resource acquisition is initialization (RAII)",
-      "tooltip": "Resource acquisition is initialization (RAII)",
-      "lnk": "resource-acquisition-is-initialization-(raii)",
-      "id": "\"8d8c01d2-d7f4-473e-9de9-7423673ef5f0\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 5
-    },
-    {
-      "label": "Recursive lambda expressions in C++",
-      "tooltip": "Recursive lambda expressions in C++",
-      "lnk": "recursive-lambda-expressions-in-c++",
-      "id": "\"0d2cc019-6adf-4e08-aabc-bb19447925f5\"",
-      "centrality": 0.0,
-      "degree": 0,
-      "communityLabel": 15
-    },
-    {
-      "label": "Perfect forwarding in C++",
-      "tooltip": "Perfect forwarding in C++",
-      "lnk": "perfect-forwarding-in-c++",
-      "id": "\"e6869bc0-6ce2-4bf2-9e84-eb1a1fdbc2e3\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 6
-    },
-    {
-      "label": "Parallelism",
-      "tooltip": "Parallelism",
-      "lnk": "parallelism",
-      "id": "\"cd4eb57a-d5b5-4493-bd95-f440fa8c64f2\"",
-      "centrality": 0.0,
-      "degree": 0,
-      "communityLabel": 16
-    },
-    {
-      "label": "Move semantics in C++",
-      "tooltip": "Move semantics in C++",
-      "lnk": "move-semantics-in-c++",
-      "id": "\"d10135e0-142a-4098-9211-e9810149491e\"",
-      "centrality": 0.37866577178884575,
-      "degree": 1,
-      "communityLabel": 2
-    },
-    {
-      "label": "Memory segmentation",
-      "tooltip": "Memory segmentation",
-      "lnk": "memory-segmentation",
-      "id": "\"e5f5b1e7-aa09-46d0-84f7-9dd0cdd2cb75\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 7
-    },
-    {
-      "label": "Isomorphism",
-      "tooltip": "Isomorphism",
-      "lnk": "isomorphism",
-      "id": "\"b8e99aa0-fd86-46e3-aa26-5d75a7039970\"",
-      "centrality": 0.5189634067754612,
-      "degree": 2,
-      "communityLabel": 3
-    },
-    {
-      "label": "Homomorphism",
-      "tooltip": "Homomorphism",
-      "lnk": "homomorphism",
-      "id": "\"7c174dd8-1261-4ac6-9228-1fa330c8b26c\"",
-      "centrality": 0.5189634067754612,
-      "degree": 2,
-      "communityLabel": 3
-    },
-    {
-      "label": "Habits",
-      "tooltip": "Habits",
-      "lnk": "habits",
-      "id": "\"7a6eebfe-c429-4543-9b0b-74cf9b582842\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 8
-    },
-    {
-      "label": "Functional programming",
-      "tooltip": "Functional programming",
-      "lnk": "functional-programming",
-      "id": "\"64c4379a-13c9-4fee-ad34-8c9348828470\"",
-      "centrality": 0.0,
-      "degree": 0,
-      "communityLabel": 17
-    },
-    {
-      "label": "Fragmentation",
-      "tooltip": "Fragmentation",
-      "lnk": "fragmentation",
-      "id": "\"2420ad87-9dad-4b90-9d5c-fe6bdcf36930\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 7
-    },
-    {
-      "label": "Forwarding references in C++",
-      "tooltip": "Forwarding references in C++",
-      "lnk": "forwarding-references-in-c++",
-      "id": "\"66dea84e-f7e6-420c-8e83-e66ddf31c580\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 6
-    },
-    {
-      "label": "Decltype keyword in C++",
-      "tooltip": "Decltype keyword in C++",
-      "lnk": "decltype-keyword-in-c++",
-      "id": "\"92f23333-c865-45a0-83e2-3d78b43de87e\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 9
-    },
-    {
-      "label": "Declaration, initialization, instantiation",
-      "tooltip": "Declaration, initialization, instantiation",
-      "lnk": "declaration-initialization-instantiation",
-      "id": "\"676839cf-f0f6-444a-9fb2-02bf16b71334\"",
-      "centrality": 0.0,
-      "degree": 0,
-      "communityLabel": 18
-    },
-    {
-      "label": "Copy semantics in C++",
-      "tooltip": "Copy semantics in C++",
-      "lnk": "copy-semantics-in-c++",
-      "id": "\"1acf294d-aa59-45c7-9088-081e57dc1519\"",
-      "centrality": 0.37866577178884575,
-      "degree": 1,
-      "communityLabel": 2
-    },
-    {
-      "label": "Compounding resources",
-      "tooltip": "Compounding resources",
-      "lnk": "compounding-resources",
-      "id": "\"432b9545-665a-4826-acf6-52471da2e7e7\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 8
-    },
-    {
-      "label": "Category theory",
-      "tooltip": "Category theory",
-      "lnk": "category-theory",
-      "id": "\"263040fa-9cd1-479c-8907-ccb8e7709329\"",
-      "centrality": 0.5189634067754612,
-      "degree": 2,
-      "communityLabel": 3
-    },
-    {
-      "label": "Auto keyword in C++",
-      "tooltip": "Auto keyword in C++",
-      "lnk": "auto-keyword-in-c++",
-      "id": "\"0fe756e8-35ff-49ee-92b9-883ce2818c24\"",
-      "centrality": 0.5189634067754612,
-      "degree": 1,
-      "communityLabel": 9
-    },
-    {
-      "label": "An infinitive is the base form of a verb without an inflection binding it to a particular subject or tense",
-      "tooltip": "An infinitive is the base form of a verb without an inflection binding it to a particular subject or tense",
-      "lnk": "an-infinitive-is-the-base-form-of-a-verb-without-an-inflection-binding-it-to-a-particular-subject-or-tense",
-      "id": "\"7b561936-69bf-46b9-8e01-4591206ecb6f\"",
-      "centrality": 0.0,
-      "degree": 0,
-      "communityLabel": 19
-    },
-    {
-      "label": "Simple ideas are the basis on which complexity forms",
-      "tooltip": "Simple ideas are the basis on which complexity forms",
-      "lnk": "simple-ideas-are-the-basis-on-which-complexity-forms",
-      "id": "\"178fa88e-9e96-425b-a5b8-9be2a2935ec7\"",
-      "centrality": 0.0,
-      "degree": 0,
-      "communityLabel": 20
-    },
-    {
       "label": "A Zettelkasten is a system for thinking and writing",
       "tooltip": "A Zettelkasten is a system for thinking and writing",
       "lnk": "1.1-a-zettelkasten-is-a-system-for-thinking-and-writing",
       "id": "\"a1c30469-2149-4e69-b229-ecc311fd0ed2\"",
-      "centrality": 0.5189634067754612,
+      "centrality": 0.5190055865737423,
       "degree": 1,
-      "communityLabel": 10
+      "communityLabel": 3
     },
     {
       "label": "The Zettelkasten is a bottom-up note-taking system",
       "tooltip": "The Zettelkasten is a bottom-up note-taking system",
       "lnk": "1.5-the-zettelkasten-is-a-bottom-up-note-taking-system",
       "id": "\"76447d86-6842-4ccb-a891-35205cacd512\"",
-      "centrality": 0.7010558302054483,
+      "centrality": 0.7011128099329506,
       "degree": 2,
       "communityLabel": 1
     },
@@ -242,7 +26,7 @@
       "tooltip": "A main note is a self-contained unit of information",
       "lnk": "1.2b1-a-main-note-is-a-self-contained-unit-of-information",
       "id": "\"587e66de-63b7-4e32-9de7-fee8fff3627a\"",
-      "centrality": 0.30924704300335204,
+      "centrality": 0.3092992700203238,
       "degree": 1,
       "communityLabel": 0
     },
@@ -251,7 +35,7 @@
       "tooltip": "Titles in a Zettelkasten should be declarative",
       "lnk": "1.6-titles-in-a-zettelkasten-should-be-declarative",
       "id": "\"401c49df-6bed-428e-a70a-66d48ea68602\"",
-      "centrality": 0.33687098334547505,
+      "centrality": 0.3368983632145346,
       "degree": 1,
       "communityLabel": 1
     },
@@ -260,7 +44,7 @@
       "tooltip": "A fleeting note is any idea important enough to capture in the moment",
       "lnk": "1.2-a-fleeting-note-is-any-idea-important-enough-to-capture-in-the-moment",
       "id": "\"153cf566-6300-4110-94fb-1504ef9321eb\"",
-      "centrality": 0.657800864346449,
+      "centrality": 0.657908513118132,
       "degree": 2,
       "communityLabel": 0
     },
@@ -271,7 +55,7 @@
       "id": "\"26588186-ca1e-4bda-a94a-c160cce5a0e5\"",
       "centrality": 0.0,
       "degree": 0,
-      "communityLabel": 21
+      "communityLabel": 6
     },
     {
       "label": "The atomicity-complexity tradeoff is the tension between a note's independence and its contextual richness",
@@ -280,14 +64,14 @@
       "id": "\"21389cd4-b78b-47b6-932e-04c9d5b11b8b\"",
       "centrality": 0.0,
       "degree": 0,
-      "communityLabel": 22
+      "communityLabel": 7
     },
     {
       "label": "Taking fleeting notes is the first step towards an externalized thinking process",
       "tooltip": "Taking fleeting notes is the first step towards an externalized thinking process",
       "lnk": "1.2a-taking-fleeting-notes-is-the-first-step-towards-an-externalized-thinking-process",
       "id": "\"4784d0b9-c1b3-46ca-a735-6cee3bc54933\"",
-      "centrality": 0.3185220835241539,
+      "centrality": 0.31852087970993337,
       "degree": 1,
       "communityLabel": 0
     },
@@ -296,9 +80,9 @@
       "tooltip": "The use of a Zettelkasten does not inherently improve one's ability to write",
       "lnk": "1.1a-the-use-of-a-zettelkasten-does-not-inherently-improve-one's-ability-to-write",
       "id": "\"e1879f13-891f-4812-82f4-39f1a72feafd\"",
-      "centrality": 0.5189634067754612,
+      "centrality": 0.5190055865737423,
       "degree": 1,
-      "communityLabel": 10
+      "communityLabel": 3
     },
     {
       "label": "A linked list is a data structure consisting of a collection of nodes which each contain data and a reference to the next node in the sequence",
@@ -307,7 +91,7 @@
       "id": "\"08b71b98-f77b-40a5-8376-fd5b8d368b19\"",
       "centrality": 0.0,
       "degree": 0,
-      "communityLabel": 23
+      "communityLabel": 8
     },
     {
       "label": "An array is a data structure that stores elements of the same type sequentially in memory",
@@ -316,61 +100,61 @@
       "id": "\"ed565f37-f0f3-42c8-a179-2bb9e24f61ae\"",
       "centrality": 0.0,
       "degree": 0,
-      "communityLabel": 24
+      "communityLabel": 9
     },
     {
       "label": "Backtracking is an algorithmic paradigm that incrementally builds solutions while discarding invalid states",
       "tooltip": "Backtracking is an algorithmic paradigm that incrementally builds solutions while discarding invalid states",
       "lnk": "5.1b-backtracking-is-an-algorithmic-paradigm-that-incrementally-builds-solutions-while-discarding-invalid-states",
       "id": "\"b266de7e-44b5-4b87-9777-4679fe7719f7\"",
-      "centrality": 0.37866577178884575,
+      "centrality": 0.3787507332925184,
       "degree": 1,
-      "communityLabel": 4
+      "communityLabel": 2
     },
     {
       "label": "An algorithm is a finite set of rules that gives a sequence of operations for solving a specific type of problem",
       "tooltip": "An algorithm is a finite set of rules that gives a sequence of operations for solving a specific type of problem",
       "lnk": "5.1-an-algorithm-is-a-finite-set-of-rules-that-gives-a-sequence-of-operations-for-solving-a-specific-type-of-problem",
       "id": "\"7b4b1409-5fed-406b-958f-4c0f2cdd10bf\"",
-      "centrality": 0.7995586767486925,
+      "centrality": 0.7995152931361906,
       "degree": 2,
-      "communityLabel": 4
+      "communityLabel": 2
     },
     {
       "label": "A large language model (LLM) is a type of AI that can recognize and generate text",
       "tooltip": "A large language model (LLM) is a type of AI that can recognize and generate text",
       "lnk": "4.1a-a-large-language-model-(llm)-is-a-type-of-ai-that-can-recognize-and-generate-text",
       "id": "\"e82d570a-6a54-4b7b-9550-79e43eaaefe1\"",
-      "centrality": 0.5189634067754612,
+      "centrality": 0.5190055865737423,
       "degree": 1,
-      "communityLabel": 11
+      "communityLabel": 4
     },
     {
       "label": "Artificial intelligence (AI) is the capability of machines to replicate human intelligence",
       "tooltip": "Artificial intelligence (AI) is the capability of machines to replicate human intelligence",
       "lnk": "4.1-artificial-intelligence-(ai)-is-the-capability-of-machines-to-replicate-human-intelligence",
       "id": "\"73edc946-71b4-473e-8221-ee2239b87a3a\"",
-      "centrality": 0.5189634067754612,
+      "centrality": 0.5190055865737423,
       "degree": 1,
-      "communityLabel": 11
+      "communityLabel": 4
     },
     {
       "label": "Slovak has four diacritic marks",
       "tooltip": "Slovak has four diacritic marks",
       "lnk": "3.2a-slovak-has-four-diacritic-marks",
       "id": "\"0e306a3f-481f-4400-b94a-dc98dbfcf1d8\"",
-      "centrality": 0.5189634067754612,
+      "centrality": 0.5190055865737423,
       "degree": 1,
-      "communityLabel": 12
+      "communityLabel": 5
     },
     {
       "label": "The Slovak alphabet has more letters than the English alphabet",
       "tooltip": "The Slovak alphabet has more letters than the English alphabet",
       "lnk": "3.2-the-slovak-alphabet-has-more-letters-than-the-english-alphabet",
       "id": "\"5a4ee4e6-7a45-48b3-9670-d96303d8a9d9\"",
-      "centrality": 0.5189634067754612,
+      "centrality": 0.5190055865737423,
       "degree": 1,
-      "communityLabel": 12
+      "communityLabel": 5
     },
     {
       "label": "Slovak nouns decline across seven cases",
@@ -379,7 +163,7 @@
       "id": "\"0a0fa77a-bfcd-4f60-ab56-a7e32f1738a1\"",
       "centrality": 0.0,
       "degree": 0,
-      "communityLabel": 25
+      "communityLabel": 10
     },
     {
       "label": "A backend developer works with the server-side of an application",
@@ -388,14 +172,14 @@
       "id": "\"b6202bea-358b-494e-916a-3f308293e111\"",
       "centrality": 0.0,
       "degree": 0,
-      "communityLabel": 26
+      "communityLabel": 11
     },
     {
       "label": "The internet is a network of computers communicating through a set of protocols",
       "tooltip": "The internet is a network of computers communicating through a set of protocols",
       "lnk": "2.1-the-internet-is-a-network-of-computers-communicating-through-a-set-of-protocols",
       "id": "\"3c1f296e-b983-4787-bd58-74cb9bf81f36\"",
-      "centrality": 0.33687098334547505,
+      "centrality": 0.3368983632145346,
       "degree": 1,
       "communityLabel": 1
     },
@@ -406,7 +190,7 @@
       "id": "\"80ae0bdb-25c5-421f-b707-86de086abc36\"",
       "centrality": 0.0,
       "degree": 0,
-      "communityLabel": 27
+      "communityLabel": 12
     },
     {
       "label": "The Zettelkasten eliminates the blank page by building a repository of material to draw from",
@@ -415,14 +199,14 @@
       "id": "\"f031e17d-bbfe-4d51-baf2-4a2b1f2ecdef\"",
       "centrality": 0.0,
       "degree": 0,
-      "communityLabel": 28
+      "communityLabel": 13
     },
     {
       "label": "Folgezettel is an alphanumeric identification system for the Zettelkasten",
       "tooltip": "Folgezettel is an alphanumeric identification system for the Zettelkasten",
       "lnk": "1.2b2-folgezettel-is-an-alphanumeric-identification-system-for-the-zettelkasten",
       "id": "\"ce8fde26-1257-4bec-9f74-b7cd508888a2\"",
-      "centrality": 0.30924704300335204,
+      "centrality": 0.3092992700203238,
       "degree": 1,
       "communityLabel": 0
     },
@@ -440,7 +224,7 @@
       "tooltip": "A Zettelkasten should not be an encyclopedia",
       "lnk": "1.5b-a-zettelkasten-should-not-be-an-encyclopedia",
       "id": "\"8bcbec78-22fd-4108-8f8f-8ebc66ac9cea\"",
-      "centrality": 0.7010558302054483,
+      "centrality": 0.7011128099329506,
       "degree": 2,
       "communityLabel": 1
     },
@@ -449,60 +233,12 @@
       "tooltip": "A line sweep algorithm uses a conceptual line to sweep through one axis of the problem space",
       "lnk": "5.1a-a-line-sweep-algorithm-uses-a-conceptual-line-to-sweep-through-one-axis-of-the-problem-space",
       "id": "\"dd5ec39c-9ce8-4573-a400-84e1fb5ff52d\"",
-      "centrality": 0.37866577178884575,
+      "centrality": 0.3787507332925184,
       "degree": 1,
-      "communityLabel": 4
+      "communityLabel": 2
     }
   ],
   "links": [
-    {
-      "source": "\"cdb6eea9-4902-4756-a2f4-49304b0d0c0a\"",
-      "target": "\"1acf294d-aa59-45c7-9088-081e57dc1519\""
-    },
-    {
-      "source": "\"cdb6eea9-4902-4756-a2f4-49304b0d0c0a\"",
-      "target": "\"d10135e0-142a-4098-9211-e9810149491e\""
-    },
-    {
-      "source": "\"d2bab5f7-197a-4b9c-8248-c88ed506cb33\"",
-      "target": "\"8d8c01d2-d7f4-473e-9de9-7423673ef5f0\""
-    },
-    {
-      "source": "\"e6869bc0-6ce2-4bf2-9e84-eb1a1fdbc2e3\"",
-      "target": "\"66dea84e-f7e6-420c-8e83-e66ddf31c580\""
-    },
-    {
-      "source": "\"e5f5b1e7-aa09-46d0-84f7-9dd0cdd2cb75\"",
-      "target": "\"2420ad87-9dad-4b90-9d5c-fe6bdcf36930\""
-    },
-    {
-      "source": "\"b8e99aa0-fd86-46e3-aa26-5d75a7039970\"",
-      "target": "\"263040fa-9cd1-479c-8907-ccb8e7709329\""
-    },
-    {
-      "source": "\"b8e99aa0-fd86-46e3-aa26-5d75a7039970\"",
-      "target": "\"7c174dd8-1261-4ac6-9228-1fa330c8b26c\""
-    },
-    {
-      "source": "\"7c174dd8-1261-4ac6-9228-1fa330c8b26c\"",
-      "target": "\"263040fa-9cd1-479c-8907-ccb8e7709329\""
-    },
-    {
-      "source": "\"7c174dd8-1261-4ac6-9228-1fa330c8b26c\"",
-      "target": "\"b8e99aa0-fd86-46e3-aa26-5d75a7039970\""
-    },
-    {
-      "source": "\"2420ad87-9dad-4b90-9d5c-fe6bdcf36930\"",
-      "target": "\"e5f5b1e7-aa09-46d0-84f7-9dd0cdd2cb75\""
-    },
-    {
-      "source": "\"92f23333-c865-45a0-83e2-3d78b43de87e\"",
-      "target": "\"0fe756e8-35ff-49ee-92b9-883ce2818c24\""
-    },
-    {
-      "source": "\"432b9545-665a-4826-acf6-52471da2e7e7\"",
-      "target": "\"7a6eebfe-c429-4543-9b0b-74cf9b582842\""
-    },
     {
       "source": "\"587e66de-63b7-4e32-9de7-fee8fff3627a\"",
       "target": "\"ec3e6dc7-a35c-4b89-b847-564b871b46b1\""

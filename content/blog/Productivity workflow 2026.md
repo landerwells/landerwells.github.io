@@ -47,7 +47,7 @@ table that I can generate:
 
 ## Habit management {#habit-management}
 
-I believe [habits]({{< relref "Habits.md" >}}) are the most effective way of building lasting behavior. There
+I believe habits are the most effective way of building lasting behavior. There
 are many [books](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299) that delve into greater detail than I will here. Org-mode once
 again pulls through with the habits module, where I can declare a recurring
 habit that will appear wonderfully in my agenda view.
