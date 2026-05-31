@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://www.landerwells.com/'
+locale = 'en-US'
 title = "Lander's blog"
 theme = ['hugo-bearblog']
 
@@ -13,6 +13,10 @@ refLinksErrorLevel = 'warning'
   email = "landerwells@gmail.com"
   github = "https://github.com/landerwells"
   linkedin = "https://www.linkedin.com/in/landerwells"
+
+  [params.umami]
+    website_id = "0a89cc5d-0bb0-4d45-bb17-324c3b7f2e71"
+    script_url = "https://cloud.umami.is/script.js"
 
 [markup]
   [markup.goldmark.renderer]

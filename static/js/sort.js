@@ -1,76 +1,71 @@
-function sort_by_rad(a, b) {
-    let noteGraph = document.getElementById("note-graph");
-    if (noteGraph == null) {
-      return 0;
-    }
-    let ra = 0.;
-    let rb = 0.;
-    let circlea = noteGraph.getElementById("circle_" + a.id);
-    if (circlea != null) {
-        circlea = circlea.childNodes[0];
-        ra = circlea.r.baseVal.value;
-    }
+function getNoteGraphRadius(item) {
+  const noteGraph = document.getElementById("note-graph");
+  if (noteGraph == null || item.id === "") {
+    return 0;
+  }
 
-    let circleb = noteGraph.getElementById("circle_" + b.id);
-    if (circleb != null) {
-        circleb = circleb.childNodes[0];
-        rb = circleb.r.baseVal.value;
-    }
+  const graphLink = noteGraph.getElementById("circle_" + item.id);
+  if (graphLink == null || graphLink.childNodes.length === 0) {
+    return 0;
+  }
 
-    return rb - ra;
+  return graphLink.childNodes[0].r.baseVal.value;
 }
 
-function sort_by_name(a, b) {
-    return a.children[0].title.replace("Notes on: ", "")
-        .localeCompare(b.children[0].title.replace("Notes on: ", ""));
+function sortByRadius(a, b) {
+  return getNoteGraphRadius(b) - getNoteGraphRadius(a);
 }
 
-function sort_by_date(a, b) {
-    db = new Date(b.children[0]
-                  .getElementsByTagName("span")[0].innerHTML.trim());
-    da = new Date(a.children[0]
-                  .getElementsByTagName("span")[0].innerHTML.trim());
-    return new Date(db) - new Date(da);
+function sortByName(a, b) {
+  return (a.dataset.title || "").localeCompare(b.dataset.title || "");
 }
 
-
-function sort_list_of_items(type) {
-    var ul = document.getElementById("note_list").getElementsByTagName('li');
-    ul = Array.prototype.slice.call(ul);
-    if (type == "top") {
-        ul.sort(sort_by_rad);
-    }
-    else if (type == "name") {
-        ul.sort(sort_by_name);
-    }
-    else if (type == "latest") {
-        ul.sort(sort_by_name);
-        ul.sort(sort_by_date);
-    }
-    var parent = document.getElementById("note_list");
-    parent.innerHTML = "";
-    for(var i = 0, l = ul.length; i < l; i++) {
-        parent.appendChild(ul[i]);
-    }
+function sortByDate(a, b) {
+  return new Date(b.dataset.date || 0) - new Date(a.dataset.date || 0);
 }
 
-var sorter = document.getElementById("sort_type");
-function sort_items() {
-    sort_list_of_items(sorter.selectedOptions[0].value);
+function sortListOfItems(type) {
+  const noteList = document.getElementById("note_list");
+  if (noteList == null) {
+    return;
+  }
+
+  const items = Array.from(noteList.getElementsByTagName("li"));
+  if (type === "top") {
+    items.sort(sortByRadius);
+  } else if (type === "name") {
+    items.sort(sortByName);
+  } else if (type === "latest") {
+    items.sort(sortByName);
+    items.sort(sortByDate);
+  }
+
+  noteList.replaceChildren(...items);
 }
 
-var selectOption = sorter.options[sorter.selectedIndex];
-var lastSelected = localStorage.getItem('select');
+const sorter = document.getElementById("sort_type");
 
-if(lastSelected) {
+function sortItems() {
+  if (sorter == null) {
+    return;
+  }
+
+  sortListOfItems(sorter.selectedOptions[0].value);
+}
+
+window.sortItems = sortItems;
+
+if (sorter != null) {
+  const lastSelected = localStorage.getItem("select");
+
+  if (lastSelected) {
     sorter.value = lastSelected;
-    sort_items();
-}
+  }
 
-sorter.onchange = function () {
-    lastSelected = sorter.options[sorter.selectedIndex].value;
-    console.log(lastSelected);
-    localStorage.setItem('select', lastSelected);
-    sort_items();
-};
-sort_items();
+  sorter.onchange = function () {
+    localStorage.setItem("select", sorter.options[sorter.selectedIndex].value);
+    sortItems();
+  };
+
+  sortItems();
+}

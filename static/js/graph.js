@@ -199,9 +199,10 @@ d3.json(graph_name).then(function(data) {
           .style("pointer-events", "none")
           .style("alignment-baseline", "middle");
 
-    // We sort the nodes now because some of the sorting function need the
-    // node radius
-    // sort_items();
+    // Re-sort once the graph has loaded because the "Top" sort uses node radius.
+    if (window.sortItems) {
+        window.sortItems();
+    }
 
     // Run the simulation
     simulation.on("tick", () => {

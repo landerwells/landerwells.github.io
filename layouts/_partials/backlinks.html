@@ -1,7 +1,7 @@
 {{ $currentTitle := .Title }}
 {{ $backlinks := slice }}
 
-{{ range .Site.AllPages }}
+{{ range site.RegularPages }}
   {{ if ne . $ }}
     {{/* Check if link text contains the title */}}
     {{ $pattern := printf "[%s]" $currentTitle }}

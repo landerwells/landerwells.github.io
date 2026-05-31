@@ -9,17 +9,27 @@
     <a href="{{ "blog" | relURL }}">Remove filter</a>
   </small>
   {{ end }}
-  <ul class="blog-posts">
+  {{ if eq .Section "notes" }}
+  <label for="sort_type">Sort notes:</label>
+  <select id="sort_type">
+    <option value="latest">Latest</option>
+    <option value="name">Name</option>
+    <option value="top">Top</option>
+  </select>
+  {{ end }}
+  <ul class="blog-posts"{{ if eq .Section "notes" }} id="note_list"{{ end }}>
     {{ range .Pages }}
-    <li>
+    {{ $date := .Date.Format "2006-01-02" }}
+    {{ $slug := .RelPermalink | strings.TrimSuffix "/" | path.Base }}
+    <li{{ if eq $.Section "notes" }} id="{{ $slug }}" data-date="{{ $date }}" data-title="{{ .Title }}"{{ end }}>
       <span>
         <i>
-          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+          <time datetime='{{ $date }}'>
             {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
           </time>
         </i>
       </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ else }}
     <li>
@@ -31,7 +41,7 @@
   <small>
     <div>
       {{ range .Site.Taxonomies.tags }}
-      <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+      <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}</a>&nbsp;
       {{ end }}
     </div>
   </small>
