@@ -1,7 +1,6 @@
 baseURL = 'https://www.landerwells.com/'
 locale = 'en-US'
 title = "Lander's blog"
-theme = ['hugo-bearblog']
 
 refLinksErrorLevel = 'warning'
 
@@ -23,8 +22,7 @@ refLinksErrorLevel = 'warning'
     unsafe = true
   [markup.highlight]
     codeFences = true
-    style = "solarized-dark"
-    noClasses = true
+    noClasses = false
 
 [frontmatter]
   lastmod = [":git", ":fileModTime", "lastmod"]

@@ -33,32 +33,11 @@ d3.json(graph_name).then(function(data) {
         }
         return d.radius;
     };
-    color = "#ffffff";
-
-    // Number of colors is the number of clusters (given by communityLabel)
-    num_colors = Math.max(...data.nodes.map(d => d.communityLabel)) + 1;
-    angleArr = [...Array(num_colors).keys()].map(x => 2 * Math.PI * x / num_colors);
-    // Cluster centers around an circle
+    groupCount = Math.max(...data.nodes.map(d => d.communityLabel)) + 1;
+    angleArr = [...Array(groupCount).keys()].map(x => 2 * Math.PI * x / groupCount);
+    // Cluster centers around a circle
     centersx = angleArr.map(x => Math.cos(Math.PI + x));
     centersy = angleArr.map(x => Math.sin(Math.PI + x));
-    // Color palette for top 7 communities
-    nodeColors = [
-        '#C98914',
-        '#C55F1A',
-        '#4189AD',
-        '#007500',
-        '#968674',
-        '#5E998A',
-        "#363ea9",
-    ];
-    // Color function maps cluster to color palette, with black for smaller communities
-    nodeColor = d => {
-        // Communities beyond the 7th get black color
-        if (d.communityLabel >= nodeColors.length) {
-            return '#000000';
-        }
-        return nodeColors[d.communityLabel];
-    };
     // Make the nodes draggable
     drag = simulation => {
         function dragsubject(event) {
@@ -90,8 +69,7 @@ d3.json(graph_name).then(function(data) {
     // Make nodes interactive to hovering
     handleMouseOver = (d, i) => {
         nde = d3.select(d.currentTarget);
-        nde.attr("fill", "#999")
-            .attr("r", nde.attr("r") * 1.4);
+        nde.attr("r", nde.attr("r") * 1.4);
 
         d3.selectAll("text")
             .filter('#' + CSS.escape(d.currentTarget.id))
@@ -108,8 +86,7 @@ d3.json(graph_name).then(function(data) {
     };
     handleMouseOut = (d, _) => {
         nde = d3.select(d.currentTarget);
-        nde.attr("fill", nodeColor)
-            .attr("r", nde.attr("r") / 1.4);
+        nde.attr("r", nde.attr("r") / 1.4);
 
         d3.selectAll("text")
             .filter('#' + CSS.escape(d.currentTarget.id))
@@ -143,11 +120,10 @@ d3.json(graph_name).then(function(data) {
           .attr("viewBox", [0, 0, width, height]);
 
     const link = svg.append("g")
-          .attr("stroke", "#888")
-          .attr("stroke-opacity", 0.6)
           .selectAll("line")
           .data(links)
           .join("line")
+          .attr("class", "graph-link")
           .attr("stroke-dasharray", d => (d.predicted? "5,5": "0,0"))
           .attr("stroke-width", 1);
 
@@ -162,9 +138,7 @@ d3.json(graph_name).then(function(data) {
           .append("circle")
           .attr("id", d => d.id.toLowerCase())
           .attr("r", radius)
-          .attr("fill", nodeColor)
-          .attr("stroke", "#000")
-          .attr("stroke-width", 1.3)
+          .attr("class", "graph-node")
           .on("mouseover", handleMouseOver)
           .on("mouseout", handleMouseOut)
           .call(drag(simulation));
@@ -173,23 +147,11 @@ d3.json(graph_name).then(function(data) {
         .text(d => d.label.replace(/"/g, ''));
 
     // Nodes have a label that is visible on hover
-    // They have two layers a rectangle "background" and the text on top
     const label = svg.append("g")
           .selectAll("text")
           .data(nodes)
           .join("g");
-    const label_background = label.append("text")
-          .style("font-size", "25px")
-          .text(function (d) { return "  "+ d.label.replace(/"/g, '') + "  "; })
-          .attr("dy", -25)
-          .attr("id", d => d.id.toLowerCase())
-          .attr("class", "node_label")
-          .style("display", "none")
-          .style("pointer-events", "none")
-          .style("alignment-baseline", "middle")
-          .attr("filter", "url(#solid)");
     const label_text = label.append("text")
-          .style("fill", "#222")
           .style("font-size", "25px")
           .text(function (d) { return "  "+ d.label.replace(/"/g, '') + "  "; })
           .attr("dy", -25)
@@ -217,8 +179,6 @@ d3.json(graph_name).then(function(data) {
         label_text.attr("x", d => d.x)
             .attr("y", d => d.y);
 
-        label_background.attr("x", d => d.x)
-            .attr("y", d => d.y);
     });
 });
 }
