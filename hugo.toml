@@ -3,6 +3,7 @@ locale = 'en-US'
 title = "Lander's blog"
 
 refLinksErrorLevel = 'warning'
+enableRobotsTXT = true
 
 [caches]
   [caches.images]
