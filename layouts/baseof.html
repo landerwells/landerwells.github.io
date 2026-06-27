@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
-  <head>
-    {{ partial "head.html" . }}
-  </head>
   <body>
-    {{ partial "header.html" . }}
+    {{ partial "navbar.html" . }}
     <main>
       {{ block "main" . }}{{ end }}
     </main>
