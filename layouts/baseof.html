@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{ $css := resources.Get "css/new.css" | minify | fingerprint }}
+  <link rel="stylesheet"
+        href="{{ $css.RelPermalink }}"
+        integrity="{{ $css.Data.Integrity }}">
+</head>
   <body>
     {{ partial "navbar.html" . }}
     <main>

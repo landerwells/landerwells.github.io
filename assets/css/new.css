@@ -1,0 +1,159 @@
+header {
+  max-width: 770px;
+  margin: 0 auto;
+  padding: 2em 0 1em 0;
+  margin-top: 5.0%;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+
+main, .content {
+  word-break: break-word;
+  margin-bottom: 5%;
+}
+
+body {
+  color: rgba(51, 51, 51, 1.00);
+
+  margin: 40px auto;
+  max-width: 770px;
+}
+
+/* Keep all the link, text styling as-is */
+a, a:visited {
+  text-decoration: none;
+  color: rgba(48,63,159, 1.00);
+}
+
+strong, .bold {
+  font-weight: 400;
+}
+
+em, i {
+  color: #999999;
+  font-style: normal;
+}
+
+
+/* --- Code blocks --- */
+code, pre {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  line-height: 1.35em;
+}
+
+/* Inline code */
+code {
+  background-color: #f9f9f9;
+  font-weight: 400; /* keep inline code slightly bolder */
+  padding: 0.1em 0.25em;
+  border-radius: 3px;
+}
+
+/* Pre blocks */
+pre {
+  position: relative;
+  background-color: #fbfbfb;
+  color: #00008b;
+  overflow: auto;
+  margin: 0;
+  padding: 0.25em 0.5em;
+  border-left: 2px dotted #00008b;
+}
+
+/* Language labels */
+pre::before {
+  color: #cccccc;
+  float: left;
+  text-align: right;
+  font-weight: 300;
+  width: 3em;
+  margin-left: -4.25em;
+  font-variant: small-caps;
+  content: "";
+}
+pre.src-lisp::before  { content: "lisp"; }
+pre.src-org::before   { content: "org"; }
+pre.src-cpp::before   { content: "c++"; }
+pre.src-c::before     { content: "c"; }
+pre.src-rust::before  { content: "rust"; }
+
+/* Optional: specific class for pre.src to allow folding or extra styling */
+pre.src {
+  overflow: visible;
+}
+
+/* --- Code folding --- */
+details {
+  color: rgba(48,63,159, 1.00);
+  background: #fbfbfb;
+  border: 1px solid rgba(48,63,159, 1.00);
+  border-radius: 3px;
+  padding:  0.25em;
+  margin-bottom: 1.0em;
+}
+details pre {
+  border: 0;
+}
+details pre.src-lisp::before { content: ""; }
+summary {
+  outline: 0;
+  color: rgba(48,63,159, 1.00);
+}
+summary::after {
+  font-size: 0.85em;
+  color: rgba(48,63,159, 0.25);
+  display: inline-block;
+  float: right;
+  content: "Click to fold/unfold";
+  padding-right:  0.5em;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  font-weight: 400;
+  padding: 0;
+  margin-bottom: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+td {
+  line-height: 1.1em;
+  padding: 0;
+  padding-bottom: 0;
+}
+
+dd {
+  margin-top: 0.25em;
+  margin-bottom: 0.50em;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  color: #999999;
+  line-height: 1.25em;
+  margin: 0.5em 0;
+}
+
+footer a {
+  color: #999999;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
